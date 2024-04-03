@@ -11,7 +11,7 @@ presentations and hands-on lab exercises.
 
 We will cover all the various components that are part of Cloud Pak for Integration. We will also discuss how these components can be used in combination. The following are the varies areas depending on your interest.
 
-*  **IBM ibm App Connect**
+*  **IBM App Connect**ALE
 *  **IBM API Connect**
 *  **IBM DataPower Gateway**
 *  **IBM Event Streams**
