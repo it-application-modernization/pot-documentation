@@ -5,7 +5,7 @@
 
 **What is a Proof of Technology?**
 
-Proof of Technology sessions are complimentary classes to build
+IBM Proof of Technology sessions are complimentary classes to build
 understanding of IBM technology and software with practical
 presentations and hands-on lab exercises. 
 
