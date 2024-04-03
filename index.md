@@ -5,13 +5,13 @@
 
 **What is a Proof of Technology?**
 
-IBM gitProof of Technology sessions are complimentary classes to build
+IBM Proof of Technology sessions are complimentary classes to build
 understanding of IBM technology and software with practical
 presentations and hands-on lab exercises. 
 
 We will cover all the various components that are part of Cloud Pak for Integration. We will also discuss how these components can be used in combination. The following are the varies areas depending on your interest.
 
-*  **IBM App Connect**ALE
+*  **IBM App Connect**
 *  **IBM API Connect**
 *  **IBM DataPower Gateway**
 *  **IBM Event Streams**
