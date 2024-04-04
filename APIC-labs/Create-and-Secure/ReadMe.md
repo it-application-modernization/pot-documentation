@@ -135,7 +135,7 @@ Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 [pic1a]: images/1a.png
 [pic2a]: images/2a.png
 [pic3a]: images/3a.png
-[pic4a]: C:\Users\042895758\pot-documentation\APIC-labs\Create-and-Secure\images\4a.png
+[pic4a]: images/4a.png
 
 # 3. Import an API into the Developer Workspace <a name="import_api"></a>
 
