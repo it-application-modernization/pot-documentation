@@ -46,17 +46,26 @@ In this tutorial, you will explore the following key capabilities:
 
 First, you will deploy a Customer Database REST service and then you will download the OpenAPI file for the Customer Database REST service that you deployed.
 
-1\. In a browser, enter the URL for the Platform Navigator that is provided by your instructor.
+1\. In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
+
+![alt text][pic1a]
+
+2\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators.
+You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
+
+![alt text][pic2a]
 
 Before beginning this lab, you will want to make sure that you have completed the [API Connect Experience Prereq instructions](../APIC-prereq/index.md).
 
-2\. When you log in for the first time, you may see a **Welcome, let's get started** window.  Feel free to review the contents by click **Start the tour** or by click on the **X** to close the window.
+3\. Login into CP4I Platform navigator using the credentials provided by your instructor.
 
-![alt text][pic91]
+![alt text][pic3a]
 
-3\. Navigate to the **App Connect Dashboard**.
+3\. Logging in, you may see a Welcome page showing all the instances installed of your CP4I ready to be used.
+Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 
-![alt text][pic92]
+![alt text][pic4a]
+
 
 4\. Click on the **Dashboard** icon in the left navigation.
 
@@ -64,8 +73,9 @@ Before beginning this lab, you will want to make sure that you have completed th
 
 5\. For this lab, we already have the REST service built and available as a **bar** file. You can download the **CustomerDatabaseV1.bar** file for the service [here](./resources/CustomerDatabaseV1.bar).
 
-6\. Click on **Deploy integrations**.
+6\. Click on **New**.
 
+//insert pic 5
 ![alt text][pic94]
 
 7\. Click **Quick start integration** and click **Next**.
@@ -123,6 +133,10 @@ Before beginning this lab, you will want to make sure that you have completed th
 [pic101]: images/101.png
 [pic102]: images/102.png
 [pic103]: images/103.png
+[pic1a]: images-ale/1a.png
+[pic2a]: images-ale/2a.png
+[pic3a]: images-ale/3a.png
+[pic4a]: images-ale/4a.png
 
 # 3. Import an API into the Developer Workspace <a name="import_api"></a>
 
@@ -132,14 +146,14 @@ Before beginning this lab, you will want to make sure that you have completed th
 
 2\. Navigate to the API Connect instance.
 
-![alt text][pic6]
+![alt text][pic5a]
 
 3\. If this is your first time logging in, the login page is presented. Click **Common Services User Registry**.
 ![alt text][pic8]
 
-4\. Confirm that you are in the provider organization for your username (upper right) and then click on **Develop APIs and products**.
+4\. Click on **Develop APIs and products**.
 
-![alt text][pic9]
+![alt text][pic6a]
 
 5\. We are now able to begin to create APIs and Products.  Click **Add**.
 
@@ -157,11 +171,8 @@ Before beginning this lab, you will want to make sure that you have completed th
 
 ![alt text][pic13]
 
-9\. Make sure that the **Activate API** <span style="color: red">is not</span> selected and click **Next**. 
 
-![alt text][pic14]
-
-10\.  The API should be imported successfully as shown in the image below.  Click **Edit API**.
+9\.  The API should be imported successfully as shown in the image below.  Click **Edit API**.
 
 ![alt text][pic15]
     
@@ -176,6 +187,8 @@ Before beginning this lab, you will want to make sure that you have completed th
 [pic14]: images/14.png
 [pic15]: images/15.png
 [pic104]: images/104.png
+[pic5a]: images-ale/5a.png
+[pic6a]: images-ale/6a.png
 
 # 4. Configure the API <a name="configure_api"></a>
 
