@@ -88,35 +88,16 @@ A Portal Administrator can customize the look and feel to their organizational s
 
 8\. Some Products are visible to all users without an account depending on the Product visibility setting. Additional options are available when you log into the Developer Portal.
 
-=================================================================================================
 
-**NOTE:** In this Proof of Technology, you created a Consumer account and Consumer Organization in the [API Connect Experience Prereq instructions](../APIC-prereq/index.md).  If using the pre-defined Consumer account, go to [**Step 11**](#step11) to log into the Developer Portal with your assigned username and password.  
-
-If you would like to create your own account to access the Portal, follow the steps below.
-
-9\. To create your own account, click on **Create an account**.
-
-![alt text][pic15]
-
-Next fill out the form and an activation email will be sent to you.  Click **Sign up**.
-
-![alt text][pic16]
-
-10\. You will then receive the activation email.  Copy the link and paste in to your browser to complete the registration.  Once complete, you can log in with your new account.
-
-![alt text][pic17]
-
-=================================================================================================
-
-11\.<a name="step11"></a> You can log into the Developer Portal using the pre-defined Consumer account or the Consumer account that you just created.  Click on **Sign in** on the Dev Portal screen in the upper right corner.  
+9\.<a name="step11"></a> You can log into the Developer Portal using the pre-defined Consumer account provided to you or the Consumer account created in pre-requisites. Click on **Sign in** on the Dev Portal screen in the upper right corner.  
 
 ![alt text][pic19a]
 
-12\. The Sign in screen will pop up and you will log in with your Consumer username and password.  If using the Consumer account that you pre-defined, the name will be based on your cluster account.  In the screenshot below, the cody cluster is being used and the user is cody2.  Therefore, the Consumer account username will be cody2dev.  The password that was suggested in the prereq was **passw0rd**.  If you are using the Consumer account that you just created, you can log in with those credentials.  Click **Sign in**. 
+10\. The Sign-in screen will pop up and you will log in with your Consumer username and password. If using the Consumer account that you pre-defined, the name will be based on your cluster account. Click **Sign in**. 
 
 ![alt text][pic20a]
 
-13\. Once logged in, you will see the Welcome page for the portal.   Continue to the next section to register you test application. 
+11\. Once logged in, you will see the Welcome page for the portal.   Continue to the next section to register you test application. 
 
 ![alt text][pic21a]
 
