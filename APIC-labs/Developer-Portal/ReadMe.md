@@ -55,9 +55,9 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 ![alt text][pic10a]
 
-3\. If this is your first time logging in, the login page is presented. Click **Common Services User Registry**.
+3\. If this is your first time logging in, the login page is presented. Click **Cloud Pak User Registry**.
 
-![alt text][pic8a]
+![alt text][pic11a]
 
 2\. If you are already logged in and continuing from the previous lab, click on the **Home** icon on the left navigation bar to take you to the main API Manager page.  If you just logged in, it will take you to the main API Manager page.  Click on **Manage catalogs**.  
 
@@ -80,7 +80,7 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 ![alt text][pic13]
 
-7\.  The IBM API Connect Developer Portal provides consumers access to API Catalog information.  This gives application developers the opportunity to explore and test APIs, register applications, and subscribe to Plans.
+7\.  The IBM API Connect Developer Portal provides consumers access to API Catalog information. This gives application developers the opportunity to explore and test APIs, register applications, and subscribe to Plans.
 
 A Portal Administrator can customize the look and feel to their organizational specifications. The default Developer Portal looks like the image below.  Note:  Depending on what you have published, the Products that you see may be different.
 
@@ -137,6 +137,7 @@ Next fill out the form and an activation email will be sent to you.  Click **Sig
 [pic20a]: images/20a.png
 [pic21a]: images/21a.png
 [pic10a]: images/10a.png
+[pic10a]: images/11a.png
 
 # 3. Register a Test Application <a name="register_app"></a>
 
