@@ -96,7 +96,7 @@ Click on **Sign in** on the Dev Portal screen in the upper right corner.
 
 ![alt text][pic19a]
 
-10\. The Sign-in screen will pop up and you will log in with username and password. Click **Sign in**. 
+10\. The Sign-in screen will pop up and you will log in with Consumer username and password you created in the prerequisites. Click **Sign in**. 
 
 ![alt text][pic20a]
 
@@ -125,12 +125,8 @@ Click on **Sign in** on the Dev Portal screen in the upper right corner.
 
 # 3. Register a Test Application <a name="register_app"></a>
 
-1\. You can explore various sections in the Developer Portal. Click on **Explore API Products**.
+1\. You can explore various sections in the Developer Portal. Click on **View All** under Explore API Products.
 if you're logged with the Consumer Account you created in the prerequisites, you will see
-
-![alt text][pic37]
-
-If you're logged in with the admin credential provided to you by your instructor, you will see
 
 ![alt text][pic12]
 
