@@ -51,7 +51,6 @@ First, you will deploy a Customer Database REST service and then you will downlo
 1\. In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
 
 ![alt text][pic1a]
-![image1](images/1a.png)
 
 2\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators.
 You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
@@ -136,7 +135,7 @@ Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 [pic1a]: images/1a.png
 [pic2a]: images/2a.png
 [pic3a]: images/3a.png
-[pic4a]: images/4a.png
+[pic4a]: C:\Users\042895758\pot-documentation\APIC-labs\Create-and-Secure\images\4a.png
 
 # 3. Import an API into the Developer Workspace <a name="import_api"></a>
 
