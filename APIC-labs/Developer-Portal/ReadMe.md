@@ -89,7 +89,10 @@ A Portal Administrator can customize the look and feel to their organizational s
 8\. Some Products are visible to all users without an account depending on the Product visibility setting. Additional options are available when you log into the Developer Portal.
 
 
-9\.<a name="step11"></a> You can log into the Developer Portal using the pre-defined Consumer account provided to you or the Consumer account created in pre-requisites. Click on **Sign in** on the Dev Portal screen in the upper right corner.  
+9\.<a name="step11"></a> You can log into the Developer Portal using the Admin account provided to you or the Consumer account that you created in pre-requisites. 
+As admin account you have full right to configuration and updates on Developer Portal.
+
+Click on **Sign in** on the Dev Portal screen in the upper right corner.  
 
 ![alt text][pic19a]
 
@@ -118,7 +121,7 @@ A Portal Administrator can customize the look and feel to their organizational s
 [pic20a]: images/20a.png
 [pic21a]: images/21a.png
 [pic10a]: images/10a.png
-[pic10a]: images/11a.png
+[pic11a]: images/11a.png
 
 # 3. Register a Test Application <a name="register_app"></a>
 
