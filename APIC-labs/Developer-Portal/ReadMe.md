@@ -53,7 +53,7 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 2\. Navigate to the API Connect instance.
 
-![alt text][pic6a]
+![alt text][pic10a]
 
 3\. If this is your first time logging in, the login page is presented. Click **Common Services User Registry**.
 
@@ -136,6 +136,7 @@ Next fill out the form and an activation email will be sent to you.  Click **Sig
 [pic19a]: images/19a.png
 [pic20a]: images/20a.png
 [pic21a]: images/21a.png
+[pic10a]: images/10a.png
 
 # 3. Register a Test Application <a name="register_app"></a>
 
