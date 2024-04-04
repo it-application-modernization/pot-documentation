@@ -394,13 +394,17 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 
 In the API Designer, you have the ability to test the API immediately after creation in the Assemble view!
 
-1\. Switch the toggle from Offline to Online. This step automatically publishes the API.
+1\. Click on Preferences as shown in the picture below
 
-![alt text][pic54]
+![alt text][pic7a]
 
-2\. You will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.  You should see that the API is now Online.
+2\. You will see a window opens. Switch the toggle to enable API Auto-Publish
 
-![alt text][pic55]
+![alt text][pic8a]
+
+An indicator window appear that shows that **Your API has been updated**.  Click on **Save Preferences**  and on the **X** to close the window. Your API is now Online.
+
+![alt text][pic9a]
 
 3\. Click on the **Test** tab.
 
@@ -558,6 +562,9 @@ and click **Send**.
 [pic78]: images/78.png
 [pic79]: images/79.png
 [pic107]: images/107.png
+[pic7a]: images/7a.png
+[pic8a]: images/8a.png
+[pic9a]: images/9a.png
 
 # 5. Publish API <a name="publish_api"></a>
 
