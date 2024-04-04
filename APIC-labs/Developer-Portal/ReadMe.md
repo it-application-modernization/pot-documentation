@@ -96,11 +96,11 @@ Click on **Sign in** on the Dev Portal screen in the upper right corner.
 
 ![alt text][pic19a]
 
-10\. The Sign-in screen will pop up and you will log in with your Consumer username and password. If using the Consumer account that you pre-defined, the name will be based on your cluster account. Click **Sign in**. 
+10\. The Sign-in screen will pop up and you will log in with username and password. Click **Sign in**. 
 
 ![alt text][pic20a]
 
-11\. Once logged in, you will see the Welcome page for the portal.   Continue to the next section to register you test application. 
+11\. Once logged in, you will see the Welcome page for the portal. Continue to the next section to register you test application. 
 
 ![alt text][pic21a]
 
@@ -126,8 +126,13 @@ Click on **Sign in** on the Dev Portal screen in the upper right corner.
 # 3. Register a Test Application <a name="register_app"></a>
 
 1\. You can explore various sections in the Developer Portal. Click on **Explore API Products**.
+if you're logged with the Consumer Account you created in the prerequisites, you will see
 
 ![alt text][pic37]
+
+If you're logged in with the admin credential provided to you by your instructor, you will see
+
+![alt text][pic12]
 
 2\. The Products that you see in your Portal may vary from what is shown in the lab images.  Click on **Customer 1.0.0**.  This is the Product that was published in the "Create and Secure an API to Proxy an Existing REST Web Service" lab.
 
@@ -168,6 +173,7 @@ Click **OK**.
 [pic23]: images/23.png
 [pic24]: images/24.png
 [pic37]: images/37.png
+[pic12]: images/12a.png
 
 # 4. Subscribe to the API Product<a name="subscribe_product"></a>
 
