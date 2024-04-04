@@ -42,6 +42,8 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Publish an API for developers
 
+Before beginning this lab, you will want to make sure that you have completed the [API Connect Experience Prereq instructions](../APIC-prereq/index.md).
+
 # 2. Deploying the REST Services <a name="deploy"></a>
 
 First, you will deploy a Customer Database REST service and then you will download the OpenAPI file for the Customer Database REST service that you deployed.
@@ -54,8 +56,6 @@ First, you will deploy a Customer Database REST service and then you will downlo
 You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
 
 ![alt text][pic2a]
-
-Before beginning this lab, you will want to make sure that you have completed the [API Connect Experience Prereq instructions](../APIC-prereq/index.md).
 
 3\. Login into CP4I Platform navigator using the credentials provided by your instructor.
 
@@ -73,9 +73,8 @@ Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 
 5\. For this lab, we already have the REST service built and available as a **bar** file. You can download the **CustomerDatabaseV1.bar** file for the service [here](./resources/CustomerDatabaseV1.bar).
 
-6\. Click on **New**.
+6\. Click on **Deploy Integrations**.
 
-//insert pic 5
 ![alt text][pic94]
 
 7\. Click **Quick start integration** and click **Next**.
