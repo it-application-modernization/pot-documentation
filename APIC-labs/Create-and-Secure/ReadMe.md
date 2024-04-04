@@ -133,10 +133,10 @@ Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 [pic101]: images/101.png
 [pic102]: images/102.png
 [pic103]: images/103.png
-[pic1a]: images-ale/1a.png
-[pic2a]: images-ale/2a.png
-[pic3a]: images-ale/3a.png
-[pic4a]: images-ale/4a.png
+[pic1a]: images/1a.png
+[pic2a]: images/2a.png
+[pic3a]: images/3a.png
+[pic4a]: images/4a.png
 
 # 3. Import an API into the Developer Workspace <a name="import_api"></a>
 
@@ -187,8 +187,8 @@ Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 [pic14]: images/14.png
 [pic15]: images/15.png
 [pic104]: images/104.png
-[pic5a]: images-ale/5a.png
-[pic6a]: images-ale/6a.png
+[pic5a]: images/5a.png
+[pic6a]: images/6a.png
 
 # 4. Configure the API <a name="configure_api"></a>
 
