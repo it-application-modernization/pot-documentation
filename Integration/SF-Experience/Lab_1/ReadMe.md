@@ -30,11 +30,24 @@ If you need to review logging in to the Platform Navigator review the steps in t
 
 In this section we use App Connect Designer to create a flow that will be exposed as an API to connect and call Salesforce records.
 
-2\. You will now be on your home page and in the upper left it will show your login name.   Under Integrations click on the App Connect Designer link to take you to the designer dashboard.
+2\. If you are alredy logged in IBM Cloud Pak for integration Platform Navitor, go to step 5.
+In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
 
-![alt text][pic2]
+![alt text][pic1a]
 
-3\. In the upper left always make sure you are in the correct namespace.  Select the tab on the left to open the Catalog screen.  The App Connect catalog provides a list of applications and APIs that are available.
+3\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators. You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
+
+![alt text][pic2a]
+
+4\. Login into CP4I Platform navigator using the credentials provided by your instructor.
+
+![alt text][pic3a]
+
+5\.  Logging in, you may see a Welcome page of CP4I Platform Navigator showing all the instances installed of your CP4I ready to be used. Navigate to the App Connect Designer, ace-designer instance.
+
+![alt text][pic4a]
+
+6\. Select the tab on the left to open the Catalog screen.  The App Connect catalog provides a list of applications and APIs that are available.
 
 ![alt text][pic3]
 
@@ -169,7 +182,10 @@ Click on the **Salesforce / Retrieve accounts / Accounts** mapping and select **
 [pic19]: images/19.png
 [pic20]: images/20.png
 [pic21]: images/21.png
-
+[pic1a]: images/1a.png
+[pic2a]: images/2a.png
+[pic3a]: images/3a.png
+[pic4a]: images/4a.png
 
 # 2A Testing the API flow <a name="testing_the_API_flow"></a>
 
@@ -300,9 +316,9 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 
 ![alt text][pic40]
 
-6\. From the Platform Navigator, select your App Connect Dashboard instance.
+6\. From CP4I Platform Navigator (access it by clicking IBM Cloud Pak for Integration button in the upper part of the page), select your App Connect Dashboard instance.
 
-![alt text][pic41]
+![alt text][pic6a]
 
 7\. Now select the Create a server option from your App Connect Dashboard capability
 
@@ -360,3 +376,4 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 [pic49]: images/49.png
 [pic50]: images/50.png
 [pic51]: images/51.png
+[pic6a]: images/6a.png
