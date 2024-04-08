@@ -10,9 +10,10 @@
 
 ![alt text][pic5a]
 
-2\. Loggin into API Manager selecting **Cloud Pak User Registry**.
+2\. Login into API Manager selecting **Cloud Pak User Registry**.
 
 ![alt text][pic6a]
+
 
 [pic7]: images/7.png
 [pic8]: images/8.png
@@ -26,6 +27,5 @@
 [pic16]: images/16.png
 [pic5a]: images/5a.png
 [pic6a]: images/6a.png
----
 
 [Return to main lab page](../index.md#lab-sections)
