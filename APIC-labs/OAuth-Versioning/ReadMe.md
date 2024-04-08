@@ -86,7 +86,7 @@ URL.
 
 ![alt text][pic11]
 
-5\. Enter **App Registry** for the **Title**, **https://httpbin.org/basic-auth/studentx/password** for the **Url**, and **App Registry** for the **Display name**.  Click **Save**.
+5\. Enter **App Registry** for the **Title**,the **Url** provided by your instructor, and **App Registry** for the **Display name**.  Click **Save**.
 
 ![alt text][pic12]
 
@@ -446,99 +446,47 @@ The **customer 1.0.0** Product has a Plan called **Default Plan**.  The **custom
 
 In this section, you will test the new version of the API to ensure that OAuth is working properly.
 
-1\. In the top menu, click **Catalog settings**.
+1\. In the left menu, click **Develop**.
 
-![alt text][pic71]
+![alt text][pic1a]
 
-2\. Click on **Portal**.
+2\. Click on **Customer Database v 2.0.0** API.
 
-![alt text][pic72]
+![alt text][pic2a]
 
-3\. Copy the **Portal URL** and paste it in a new browser tab.
+3\. In the top menu, click on the **Test** tab and copy **X-IBM-Client-Secret** value that will be use for testing.
 
-![alt text][pic73]
+![alt text][pic3a]
 
-4\. Click **Sign in** and use the Username and Password for the Portal account that you created in "The Developer Portal Experience" lab.
+4\. In the top menu, click on the **Explorer** tab.
+In the Explorer tab you simulate an API Call from outside the cluster.
 
-![alt text][pic74]
+![alt text][pic4a]
 
-5\. Click on **Apps**.
+5\. In the left menu, under Overview, click on the operation **GET/customers**
 
-![alt text][pic82]
+![alt text][pic5a]
 
-6\. Select the app that you created in "The Developer Portal Experience" lab (e.g. Customer Demo).
+6\. Click on **Try it**.
 
-![alt text][pic83]
+![alt text][pic6a]
 
-7\. Click on **Subscriptions**.
+7\. As **Security** choose **oauth1** from the drop down menu.
+As **API-key** leave the default value.
 
-![alt text][pic84]
 
-8\. Under **Product subscriptions**, click **Migrate this subscription to plan 'bronze' in product 'Customer' at version '2.0.0'**.
+![alt text][pic7a]
 
-![alt text][pic85]
-
-9\. Confirm that you want to migrate the subscription but clicking **Migrate subscription**.
-
-![alt text][pic86]
-
-10\. You will see that the subscription has been successfully migrated.
-
-![alt text][pic87]
-
-11\. Click on **API Products**.
-
-![alt text][pic76]
-
-12\. Click on **Customer 2.0.0**.
-
-![alt text][pic77]
-
-13\. Click on the **Customer Database 2.0.0** API.
-
-![alt text][pic78]
-
-14\. Click **GET /customers**
-
-![alt text][pic79]
-
-15\. Click **Try it**.
-
-![alt text][pic80]
-
-16\. From the **Security** drop-down menu, select **oauth-1**.
-
-![alt text][pic81]
-
-17\. Confirm that your application is shown in the **API Key** and enter your application secret for the **API Secret**.
-
-![alt text][pic88]
-
-18\. In the **Username** field, enter **studentx**.  In the **Password** field, enter **password**.  Select **customer** for the **Scopes**.
-
+8\. Fullfill **API Secret** with the value copied from step 3 in Test tab.
+As **Username** use studentx and as **Password** use password.
+Check the scope **client**.
 Recall that when we configured the OAuth API, we provided an Authentication URL as the method for validating the user credentials.
 
-Click **Get Token**.
+You're now ready to test, clicking on **Get Token**
+The Explorer will call out to the OAuth Token URL with your client credentials and user credentials.  The OAuth API will intercept the request, validate the credentials, and generate a token. 
 
-![alt text][pic89]
+![alt text][pic8a]
 
-19\. The API Portal will call out to the OAuth Token URL with your client credentials and user credentials.  The OAuth API will intercept the request, validate the credentials, and generate a token. 
-
-![alt text][pic92] 
-
-20\. Click **Send** to invoke the API. The request will include the OAuth bearer token in the Authorization header.
-
-![alt text][pic93]
-
-21\. Scroll down to see the call results.
-
-![alt text][pic94]
-
-22\. Feel free to test the rest of the operations.  Testing will be similar to the testing that was completed in the "Create and Secure an API to Proxy an Existing REST Web Service" lab.
-
-23\. To prove that the token is being validated, you can modify the contents of the **Access Token** field. Click **Send** again and you will see an error response.  **Note:** Modifying the beginning of the token will throw a **Client id missing** error.  Modifying the middle or end of the token will throw the error below.
-
-![alt text][pic95]
 
 [pic71]: images/71.png
 [pic72]: images/72.png
@@ -562,6 +510,14 @@ Click **Get Token**.
 [pic93]: images/93.png
 [pic94]: images/94.png
 [pic95]: images/95.png
+[pic1a]: images/1a.png
+[pic2a]: images/2a.png
+[pic3a]: images/3a.png
+[pic4a]: images/4a.png
+[pic5a]: images/5a.png
+[pic6a]: images/6a.png
+[pic7a]: images/7a.png
+[pic8a]: images/8a.png
 
 ## Summary
 

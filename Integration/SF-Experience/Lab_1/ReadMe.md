@@ -81,7 +81,7 @@ Use this info to fill in the following fields for the Smart connector.
 
 ![alt text][pic8]
 
-10\. First thing we will do is create the model for this.  We will call the model **SalesforceRetrieve**
+10\. First thing we will do is create the model for this.  We will call the model **SalesforceRetrieve**, then click on **Create Model**
 
 ![alt text][pic9]
 
@@ -109,13 +109,13 @@ From the Operations drop-down menu, select Add a Custom Operation. Here we will 
 
 ![alt text][pic11]
 
-Now click the "Get /SalesforceRetrieve/accounts" tab can click the Implement Flow button next to our API operation definition. This will take us to the App Connect Designer flow. This is where we can insert Smart Connectors to communicate with a variety of external applications as well as implement conditional logic and callable flows. 
+Now click the **Get /SalesforceRetrieve/accounts** tab can click the **Implement Flow** button next to our API operation definition. This will take us to the App Connect Designer flow. This is where we can insert Smart Connectors to communicate with a variety of external applications as well as implement conditional logic and callable flows. 
 
 15\. After clicking the blue plus icon on our flow designer interface, we will be able to see the variety of Smart Connectors offered by IBM App Connect Designer. You will also see an option for callable flows which allows you to integrate more complex logic into your Designer flows by building them in App Connect Enterprise Toolkit and calling them via REST API protocols. 
 
 ![alt text][pic12]
 
-16\.For our lab, we will be using the Salesforce smart connector, so let us scroll down to the Salesforce connector and select it.
+16\.For our lab, we will be using the **Salesforce smart connector**, so let us scroll down to the Salesforce connector and select it.
 
 17\. There is a vast catalog of different Salesforce objects you can interact with from App Connect Designer. In this lab we are retrieving Account information so go ahead and drop down the Accounts option and click Retrieve accounts.
 
@@ -129,7 +129,7 @@ A helpful feature offered by the Smart Connectors is the **“Try this action”
 
 ![alt text][pic14]
 
-19\. You can now click on the View details to see the results.   This is done even before your API is complete and allows you to see info that is returned from Salesforce to be mapped. 
+19\. You can now click on the View details to see the results. This is done even before your API is complete and allows you to see info that is returned from Salesforce to be mapped. 
 
 ![alt text][pic15]
 
@@ -137,16 +137,16 @@ A helpful feature offered by the Smart Connectors is the **“Try this action”
 
 ![alt text][pic16]
 
-21\. Now we can configurate our API Response body to populate a successful response message with the data fields we are interested in returning to our consumer. Go ahead and click the Response button on the integration flow (outlined in the blue box below).
+21\. Now we can configurate our API Response body to populate a successful response message with the data fields we are interested in returning to our consumer. Go ahead and click the **Response** button on the integration flow (outlined in the blue box below).
 
 ![alt text][pic17]
 
 22\. Now we will map our API Response keys to the respective values we want our consumer to obtain from Salesforce. Let us start with the **AccountID** field. 
 
-* Click on the hamburger icon next to AccountID field. ![alt text][pic18]
-* Now you will see the list of **Available mappings.**
+* Click on the blank Account ID field
+* You will see the list of **Available mappings**, listed by relevance.
 
-Click on the **Salesforce / Retrieve accounts / Accounts** mapping and select **Account ID.** Repeat the process for the other two data fields. After populating all the fields your mapping should match the image attached below.
+Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** mapping. Repeat the process for the other two data fields. After populating all the fields your mapping should match the image attached below.
 
 ![alt text][pic19]
 
