@@ -147,8 +147,8 @@ Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 
 ![alt text][pic5a]
 
-3\. If this is your first time logging in, the login page is presented. Click **Common Services User Registry**.
-![alt text][pic8]
+3\. If this is your first time logging in, the login page is presented. Click **Cloud Pak User Registry**.
+![alt text][pic1-1a]
 
 4\. Click on **Develop APIs and products**.
 
@@ -188,6 +188,7 @@ Navigate to the **App Connect Dashboard** , ace-dashboard instance.
 [pic104]: images/104.png
 [pic5a]: images/5a.png
 [pic6a]: images/6a.png
+[pic1-1a]: images/1-1a.png
 
 # 4. Configure the API <a name="configure_api"></a>
 
