@@ -28,7 +28,7 @@ The purpose of this LAB is to show how to retrieve Salesforce Account Records us
 
 In this section we use App Connect Designer to create a flow that will be exposed as an API to connect and call Salesforce records.
 
-2\. If you are alredy logged in IBM Cloud Pak for integration Platform Navitor, go to step 5.
+2\. If you are alredy logged in IBM Cloud Pak for integration Platform Navigator, go to step 5.
 In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
 
 ![alt text][pic1a]
@@ -320,7 +320,7 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 
 ![alt text][pic6a]
 
-7\. Now select the Create a server option from your App Connect Dashboard capability
+7\. Now select the **Deploy Integration** option from your App Connect Dashboard capability
 
 ![alt text][pic42]
 
