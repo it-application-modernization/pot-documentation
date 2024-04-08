@@ -1,6 +1,6 @@
 # IBM App Connect Enterprise
 
-## Build Salesforce API in minutes
+## Lab 1 - Build Salesforce API in minutes
 
 [Return to main lab page](../index.md)
 

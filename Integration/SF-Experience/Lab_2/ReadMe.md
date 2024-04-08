@@ -1,7 +1,7 @@
 # IBM API Connect
 
 
-## API lifecycle include creating, running, managing, and securing APIs
+## Lab 2 - Expose your Salesforce API in IBM API Connect 
 
 [Return to main lab page](../index.md)
 
@@ -30,22 +30,33 @@ IBM API connect is an integrated API management offering, where all of the steps
 
 * Create Develop and write the API definition and implementation, and test the API.
 * Run Package and deploy the API. Ensure that the API is hosted securely on a stable platform.
-* Manage Create and manage self-service portals that expose the API to API consumers. Monitor the set of rules and conditions that govern the API to ensure it is fulfilling its intended purpose, and make adjustments if necessary. Retire and archive the API when appropriate.
-* Secure Incorporate access control, monitoring, and logging to properly secure the API.
+* Create and manage self-service portals that expose the API to API consumers. Monitor the set of rules and conditions that govern the API to ensure it is fulfilling its intended purpose, and make adjustments if necessary. Retire and archive the API when appropriate.
+* Access control, monitoring, and logging to properly secure the API.
 
 # 2.1 Let's Start <a name="lets_start"></a>
 First make sure you are logged into the CP4I Platform Navigator using the account the instructor provided to you. 
 
-4\. Click on the API Connect link to take you to the API Manager Home page.”
+1\. If you are alredy logged in IBM Cloud Pak for integration Platform Navigator, go to step 5. In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
 
-![alt text][pic2]
+![alt text][pic1a]
 
-5\. You will now be on the APIC log in page. Select the **Common Services User Registry**
-This will log you into the Provider Org you will be using.  
+2\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators. You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
 
-![alt text][pic3]
+![alt text][pic2a]
 
-6\. Once you are on the main page make sure you are in the correct POrg.  It should contain your userid. 
+3\. Login into CP4I Platform navigator using the credentials provided by your instructor.
+
+![alt text][pic3a]
+
+4\.  Logging in, you may see a Welcome page of CP4I Platform Navigator showing all the instances installed of your CP4I ready to be used. Navigate to the API Connect instance, apic for api management.
+
+![alt text][pic4a]
+
+5\. You will now be on the APIC log in page. Select the **Cloud Pak User Registry** 
+
+![alt text][pic5a]
+
+6\. You are now on the main page.
 
 ![alt text][pic4]
 
@@ -59,7 +70,11 @@ This will log you into the Provider Org you will be using.
 [pic3]: images/3.png
 [pic4]: images/4.png
 [pic5]: images/5.png
-
+[pic1a]: images/1a.png
+[pic2a]: images/2a.png
+[pic3a]: images/3a.png
+[pic4a]: images/4a.png
+[pic5a]: images/5a.png
 
 # 2.2 Import API  <a name="create"></a>
 
