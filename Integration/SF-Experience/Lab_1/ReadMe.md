@@ -19,9 +19,7 @@
 
 # 1. Introduction <a name="introduction"></a>
 
-The purpose of this LAB is to show how to retrieve Salesforce Account Records using IBM App Connect Designer on IBM Cloud Pak for Integration. When prompted to log in to CP4I  use the username and password provided to you for this lab.  
-
-If you need to review logging in to the Platform Navigator review the steps in the [Return to main lab page](../../../index.md#lab-sections) 
+The purpose of this LAB is to show how to retrieve Salesforce Account Records using IBM App Connect Designer on IBM Cloud Pak for Integration (CP4I). When prompted to log in to CP4I use the username and password provided to you for this lab.  
 
 **Gathering your own SalesForce Credentials**
 - For this lab, you will be provided with shared credentials.  If you would like to use your own account you can follow these steps to collect your SalesForce account details: Username, Password, Client Secret, and Client ID. You can learn how to obtain these values [here](../SF-Pre-Lab/SF-Pre-Lab.md)
@@ -115,7 +113,7 @@ Now click the **Get /SalesforceRetrieve/accounts** tab can click the **Implement
 
 ![alt text][pic12]
 
-16\.For our lab, we will be using the **Salesforce smart connector**, so let us scroll down to the Salesforce connector and select it.
+16\. For our lab, we will be using the **Salesforce smart connector**, so let us scroll down to the Salesforce connector and select it.
 
 17\. There is a vast catalog of different Salesforce objects you can interact with from App Connect Designer. In this lab we are retrieving Account information so go ahead and drop down the Accounts option and click Retrieve accounts.
 
@@ -235,8 +233,10 @@ First we will stop the API. Click on the green Started switch in the upper right
 
 ![alt text][pic28]
 
-3\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API.  
-Click on the Add condition and you will see the Where clause for the equals condition click in the blank box and you will see the mapping option there where you can select the Account ID that is passed to the API.   
+3\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API. 
+Add Salesforce connector to the flow, as done in the previous steps, selecting Account>Retrieve Accounts.
+
+Click on the **Add condition** and you will see the **Where** clause for the equals condition. Click the burger icon and you will see the mapping option in which you can select under Request URL Parameter>Object the **Account ID** that is passed to the API.   
 When done should look like the following:
 
 ![alt text][pic29]
@@ -266,7 +266,7 @@ We will now start the API and this will make the Test button visible on the menu
 
 ![alt text][pic22]
 
-2\. As you can see we have two operations now one that will get us the first four accounts and the other will get account by id.   
+2\. As you can see in the Test tab, we have two operations now one that will get us the first four accounts and the other will get account by id.   
 So let’s first run the accounts GET first to get a list of Account IDs.
 
 ![alt text][pic33]
