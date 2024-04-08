@@ -482,10 +482,12 @@ As **Username** use studentx and as **Password** use password.
 Check the scope **client**.
 Recall that when we configured the OAuth API, we provided an Authentication URL as the method for validating the user credentials.
 
-You're now ready to test, clicking on **Get Token**
+![alt text][pic8a]
+
+9.\ You're now ready to test, clicking on **Get Token**
 The Explorer will call out to the OAuth Token URL with your client credentials and user credentials.  The OAuth API will intercept the request, validate the credentials, and generate a token. 
 
-![alt text][pic8a]
+![alt text][pic9a]
 
 
 [pic71]: images/71.png
@@ -518,6 +520,7 @@ The Explorer will call out to the OAuth Token URL with your client credentials a
 [pic6a]: images/6a.png
 [pic7a]: images/7a.png
 [pic8a]: images/8a.png
+[pic9a]: images/9a.png
 
 ## Summary
 
