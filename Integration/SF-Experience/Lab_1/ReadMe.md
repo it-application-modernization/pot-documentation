@@ -1,6 +1,6 @@
 # IBM App Connect Enterprise
 
-## App Connect Designer Salesforce
+## Build Salesforce API in minutes
 
 [Return to main lab page](../index.md)
 
