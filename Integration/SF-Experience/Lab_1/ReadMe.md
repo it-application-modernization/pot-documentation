@@ -232,15 +232,8 @@ In this section we will add an additional operation to get Account by ID.
 
 ![alt text][pic28]
 
-4\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API. 
-Add Salesforce connector to the flow, as done in the previous steps, selecting Account>Retrieve Accounts.
-
-Click on the **Add condition** and you will see the **Where** clause for the equals condition. Click the burger icon and you will see the mapping option in which you can select under Request URL Parameter>Object the **Account ID** that is passed to the API.   
-When done should look like the following:
-
-![alt text][pic29]
-
-5\. Now we will map our API Response keys to the respective values we want our consumer to obtain from Salesforce. Let us start with the **AccountID** field
+4\. Add Salesforce connector to the flow, as done in the previous steps, selecting Account>Retrieve Accounts.
+Now we will map our API Response keys to the respective values we want our consumer to obtain from Salesforce. Let us start with the **AccountID** field
 * Click on the hamburger icon next to AccountID field. ![alt text][pic30]
 * Now you will see the list of **Available mappings.**
 
@@ -259,38 +252,84 @@ Click on the **Salesforce / Retrieve accounts / Accounts** mapping and select Ac
 [pic31]: images/31.png
 [pic12a]: images/12a.png
 
-# 2c Testing the New API Operation <a name="testing_the_new_API"></a>
-We will now start the API and this will make the Test button visible on the menu bar.  
+# 2c Testing the New API Operation <a name="testing_the_new_API"></a> 
 
-1\. Click in the upper right cornor on the Stopped switch and it will turn green and show started.   
+1\. Click on Salesforce Connector and click **Try this Action** icon. 
 
-![alt text][pic22]
+![alt text][pic13a]
 
-2\. As you can see in the Test tab, we have two operations now one that will get us the first four accounts and the other will get account by id.   
-So let’s first run the accounts GET first to get a list of Account IDs.
+2\. Click Continue that you want to confirm.
 
-![alt text][pic33]
+![alt text][pic14a]
 
-Click the Send button and we will see the Response with list of AccountID
+3\. Test shows result:200. You can click  on **View Details** to see Test Result.
 
-![alt text][pic34]
+![alt text][pic15a]
 
-Pick one of the AccountID from the Response to use in the other Operation.
+4\. Pick one of the AccountID from the Response to use in the other Operation.
 
-3\. Now select the GET operation on the left menu and review the information on this new operation we just created.  
+![alt text][pic16a]
 
-![alt text][pic35]
+3\. Now go to the Request. Click on **View available mappings and edit sample data.**
+Under Request URL Parameter> Object> AccountID paste the AccountID you pick previously.
+
+![alt text][pic17a]
+
+4\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API. 
+Come back to the Salesforce Connector and click on **Add condition**.
+
+![alt text][pic18a]
+
+5\. Let's add a condition that the Account retrieve will be the one passed as request.
+Select Account ID from the drop down menu. Then click on the blanck field, then on the burger button. 
+Under Request URL Parameter> Object select AccountID.
+
+![alt text][pic19a]
+
+6\. Click on **Try this action**
+
+![alt text][pic20a]
+
+7\. Click Continue that you want to confirm.
+
+![alt text][pic21a]
+
+8\. Test shows result:200. You can click  on **View Details** to see Test Result.
+
+![alt text][pic22a]
+
+9\. Test results show the retrieve account with Account ID that you passed into the Request Sample Input.
+
+![alt text][pic23a]
+
+10\. Now let's the the entire flow. Click on **Try this flow**
+
+![alt text][pic24a]
+
+11\. Test results show the retrieve account as set into the response.
+
+![alt text][pic25a]
 
 
-4\. You will see the response for the AccountID that we entered to the API.
-
-![alt text][pic36]
 
 [pic32]: images/32.png
 [pic33]: images/33.png
 [pic34]: images/34.png
 [pic35]: images/35.png
 [pic36]: images/36.png
+[pic13a]: images/13a.png
+[pic14a]: images/14a.png
+[pic15a]: images/15a.png
+[pic16a]: images/16a.png
+[pic17a]: images/17a.png
+[pic18a]: images/18a.png
+[pic19a]: images/19a.png
+[pic20a]: images/20a.png
+[pic21a]: images/21a.png
+[pic22a]: images/22a.png
+[pic23a]: images/23a.png
+[pic24a]: images/24a.png
+[pic25a]: images/25a.png
 
 
 # 3. Deploying Your Designer Flow to App Connect Dashboard <a name="deploying_your_designer_flow_to_app_connect_dashboard"></a>
