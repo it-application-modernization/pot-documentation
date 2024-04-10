@@ -340,7 +340,7 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 
 ![alt text][pic37]
 
-2\. You will see that your API is running and you then will click on the triple-dot icon on your Designer flow.  Select Export.
+2\. You will see that your API and you then will click on the triple-dot icon on your Designer flow.  Select Export.
 
 ![alt text][pic38]
 
