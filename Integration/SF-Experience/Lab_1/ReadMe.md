@@ -220,19 +220,19 @@ You can see the response of the API flow clicking on **View Details**
 
 # 2B Add an Additional Operation for our Salesforce API <a name="add_an_additional_operation_for_our_salesforce_API"></a>
 In this section we will add an additional operation to get Account by ID.
-First we will stop the API. Click on the green Started switch in the upper right corner.  This will take you to the designer page.   Click on the Operations item.
+1\. Click on **Done**. 
 
-![alt text][pic26a]
+![alt text][pic12a]
 
-1\. Now select to add another operation and select the Retrieve SalesforceRetrieve by ID. 
+2\. Click on the Operations item. Now select to add another operation and select the Retrieve SalesforceRetrieve by ID. 
 
 ![alt text][pic26]
 
-2\. Select “Implement flow” for the new operation and that will get us to the flow editor where we will select the “+” sign and scroll down to SaleForce connector and select Retrieve accounts.
+3\. Select “Implement flow” for the new operation and that will get us to the flow editor where we will select the “+” sign and scroll down to SaleForce connector and select Retrieve accounts.
 
 ![alt text][pic28]
 
-3\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API. 
+4\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API. 
 Add Salesforce connector to the flow, as done in the previous steps, selecting Account>Retrieve Accounts.
 
 Click on the **Add condition** and you will see the **Where** clause for the equals condition. Click the burger icon and you will see the mapping option in which you can select under Request URL Parameter>Object the **Account ID** that is passed to the API.   
@@ -240,7 +240,7 @@ When done should look like the following:
 
 ![alt text][pic29]
 
-4\. Now we will map our API Response keys to the respective values we want our consumer to obtain from Salesforce. Let us start with the **AccountID** field
+5\. Now we will map our API Response keys to the respective values we want our consumer to obtain from Salesforce. Let us start with the **AccountID** field
 * Click on the hamburger icon next to AccountID field. ![alt text][pic30]
 * Now you will see the list of **Available mappings.**
 
@@ -257,6 +257,7 @@ Click on the **Salesforce / Retrieve accounts / Accounts** mapping and select Ac
 [pic29]: images/29.png
 [pic30]: images/30.png
 [pic31]: images/31.png
+[pic12a]: images/12a.png
 
 # 2c Testing the New API Operation <a name="testing_the_new_API"></a>
 We will now start the API and this will make the Test button visible on the menu bar.  
