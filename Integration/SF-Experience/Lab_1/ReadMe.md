@@ -361,41 +361,45 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 
 7\. Now select the **Deploy Integration** option from your App Connect Dashboard capability
 
-![alt text][pic42]
+![alt text][pic26aa]
 
 8\. We will now select the Designer Integration that we will deploy then click next.
 
 ![alt text][pic43]
 
-9\. Now we will either drag and drop the BAR file we just exported or we can click to upload it.  Then click next.
+9\. Now we will either drag and drop the BAR file we just exported or we can click to upload it. Then click next.
 
 ![alt text][pic44]
 
-10\. The next section is for configuration you can look at all the options that are available.   We will just be using the Designer Accounts which will include your Salesforce credentials.
+10\. The next section is for configuration you can look at all the options that are available. We will just be using the Designer Accounts which will include your Salesforce credentials.
 
 ![alt text][pic45]
 
-11\. The final section is the server details.   We will give it a name **is-salesforce-accounts** and change the Designer flows mode to local and Designer flows type to event-driven-or-api-flows. Go ahead and click Create.
+11\. The final section is the server details. We will give it a name is-salesforce-accounts, then switch-on Advanced Setting.
 
-![alt text][pic46]
+![alt text][pic27aa]
 
-12\. This will take you back to the Servers Dashboard where you will see your new server. To start with, it will be showing Unavailable while it is starting up the pods for it.  Refresh the screen till it shows running.
+12\. Scroll down and switch on **Designer event-driven flows** and **Designer API flows** to enable the runtime for event-driven flows and api flows built in App Connect Designer. Go ahead and click Create.
+
+![alt text][pic28aa]
+
+13\. This will take you back to the Servers Dashboard where you will see your new server. To start with, it will be showing Unavailable while it is starting up the pods for it.  Refresh the screen till it shows running.
 
 ![alt text][pic47]
 
-13\. Once it is up and running it will show the following:
+14\. Once it is up and running it will show the following:
 
 ![alt text][pic48]
 
-14\. We can also quickly test the API call running in the Integration server.   First click on the tile and it will show the API.   Click once more and you will be at the SalesforceDemo API test page.  Select the Get accounts and you will see the API details.  Click on Try it and then click the Send button. 
+15\. We can also quickly test the API call running in the Integration server. First click on the tile and it will show the API. Click once more and you will be at the SalesforceDemo API test page. Select the Get accounts and you will see the API details. Click on Try it and then click the Send button. 
 
 ![alt text][pic49]
 
-15\.You will see the following results.  After reviewing this click on the Overview on the left menu. 
+16\. You will see the following results. After reviewing this click on the Overview on the left menu. 
 
 ![alt text][pic50]
 
-16\. On the over view page near the bottom you can click on the **Download OpenAPI Document** . We will ue the OpenAPI Swagger document to import your API into IBM API Connect.
+17\. On the overview page near the bottom you can click on the **Download OpenAPI Document** . We will use the OpenAPI Swagger document to import your API into IBM API Connect.
 ![alt text][pic51]
 
 [Return to main lab page](../index.md)
@@ -416,3 +420,6 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 [pic50]: images/50.png
 [pic51]: images/51.png
 [pic6a]: images/6a.png
+[pic26aa]: images/26aa.png
+[pic27aa]: images/27aa.png
+[pic28aa]: images/28aa.png
