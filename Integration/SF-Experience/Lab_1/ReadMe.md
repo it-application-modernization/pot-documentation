@@ -308,7 +308,7 @@ Under Request URL Parameter> Object select AccountID.
 
 11\. Test results show the retrieve account as set into the response.
 
-![alt text][pic25a]
+![alt text][pic25aa]
 
 
 
@@ -329,7 +329,7 @@ Under Request URL Parameter> Object select AccountID.
 [pic22a]: images/22a.png
 [pic23a]: images/23a.png
 [pic24a]: images/24a.png
-[pic25a]: images/25a.png
+[pic25aa]: images/25aa.png
 
 
 # 3. Deploying Your Designer Flow to App Connect Dashboard <a name="deploying_your_designer_flow_to_app_connect_dashboard"></a>
