@@ -336,7 +336,7 @@ Under Request URL Parameter> Object select AccountID.
 
 Now we can export our Designer flow as a bar file to be deployed in the App Connect Dashboard on Cloud Pak for Integration. Navigate to your App Connect Designer Dashboard so we can export our flow as a BAR file. 
 
-1\. Click on Dashboard to get back to the main designer page where you will see your API running.
+1\. Click on Dashboard to get back to the main designer page where you will see your API.
 
 ![alt text][pic37]
 
@@ -346,7 +346,7 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 
 3\. We will export this API as a runtime flow asset.
 
-![alt text][pic39]
+![alt text][pic29aa]
 
 4\. You will save the SalesforceDemo.bar file locally on your machine and will use that to deploy to the AppConnect runtime.
 
@@ -423,3 +423,4 @@ Now we can export our Designer flow as a bar file to be deployed in the App Conn
 [pic26aa]: images/26aa.png
 [pic27aa]: images/27aa.png
 [pic28aa]: images/28aa.png
+[pic29aa]: images/29aa.png
