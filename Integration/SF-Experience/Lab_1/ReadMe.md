@@ -187,36 +187,35 @@ Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** 
 
 # 2A Testing the API flow <a name="testing_the_API_flow"></a>
 
- We will now start the API and this will make the Test button visible on the menu bar.  
+ In the previous steps we have tested the Salesforce Connector only. Now we are going to test the entire API flow.  
 
-1\. Click in the upper right cornor on the Stopped switch and it will turn green and show started.   
+1\. Click on **Try this flow** icon on the upper part of the page.   
 
-![alt text][pic22]
+![alt text][pic8a]
 
-2\. We will not go into details on all the items on the menu bar.  For now we will focus on the Test button.   Click on the Test button.
+2\. Click continue to confirm that you want to test the flow designed.
 
-![alt text][pic23]
+![alt text][pi9a]
+
+3\. The flow is test and a "200 OK" result was shown on the page.
+You can see the response of the API flow clicking on **View Details**
+
+![alt text][pic10a]
 
 
-3\. Now click on the Get operation on the left side under Overview.  This will take you to the Details page for this operation.   Scroll down and review the info.   When ready to Test the API click on the **Try it**
+4\. The Test Results Output is shown. You can see, as for the defined response mappping done in the previous steps, the API flow retrieves Account ID, Account Name and Website from Salesforce.
 
-![alt text][pic24]
-
-
-4\. Now you will see the GET Url for our API and the Security key.  Since we are not passing anything into the API we can just go ahead and Click on **Send**
-
-![alt text][pic25]
-
-5\. The API will run and you will see the Request details sent in as well as the Reponse from the API.   
-
-![alt text][pic25a]
+![alt text][pic11a]
 
 [pic22]: images/22.png
 [pic23]: images/23.png
 [pic24]: images/24.png
 [pic25]: images/25.png
 [pic25a]: images/25a.png
-
+[pic8a]: images/8a.png
+[pic9a]: images/9a.png
+[pic10a]: images/10a.png
+[pic11a]: images/11a.png
 
 
 # 2B Add an Additional Operation for our Salesforce API <a name="add_an_additional_operation_for_our_salesforce_API"></a>
