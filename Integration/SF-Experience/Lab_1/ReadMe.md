@@ -296,7 +296,7 @@ Under Request URL Parameter> Object select AccountID.
 
 8\. Test shows result:200. You can click  on **View Details** to see Test Result.
 
-![alt text][pic22a]
+![alt text][pic22aa]
 
 9\. Test results show the retrieve account with Account ID that you passed into the Request Sample Input.
 
@@ -326,7 +326,7 @@ Under Request URL Parameter> Object select AccountID.
 [pic19a]: images/19a.png
 [pic20a]: images/20a.png
 [pic21a]: images/21a.png
-[pic22a]: images/22a.png
+[pic22aa]: images/22aa.png
 [pic23a]: images/23a.png
 [pic24a]: images/24a.png
 [pic25aa]: images/25aa.png
