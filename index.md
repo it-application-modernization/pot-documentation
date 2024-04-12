@@ -1,8 +1,6 @@
 
 ![](images\banner_ws.png)
 
-[//]:![](images\2022-06-10_21-53-04.jpg)
-
 Welcome to IBM Application Modernization Worskhop: in this session you will experience an IBM Proof of Technology.
 
 **What is a Proof of Technology?**
