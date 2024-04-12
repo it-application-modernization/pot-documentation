@@ -86,8 +86,8 @@ For this Lab we will use the Open API Document (salesforce-0.0.1.yaml) we downlo
 
 ![alt text][pic6]
 
-2\. On the create page you will be greeted with choices of how you would like to add an API. And on the top you will see option for OpenAPI 2.0 or Open API 3.0.  For this lab we will use the **OpenAPI 2.0**
-Go ahead and click Import from existing API Import and  click Next 
+2\. On the create page you will be greeted with choices of how you would like to add an API. And on the top you will see option for OpenAPI 2.0 or OpenAPI 3.0.  For this lab we will use the **OpenAPI 2.0**
+Go ahead and under **Import** click on **Existing OpenAPI**, then click Next. 
 
 ![alt text][pic7]
 
@@ -96,14 +96,10 @@ Click Next.
 
 ![alt text][pic8]
 
-4\. The next screen will ask if you want to activate the API. This will automatically create and expose your api however for this lab we will **NOT** check that box and just click **Next**
-
-![alt text][pic8a]
-
-5\. You will see the following summary page that shows the definition was successful generated. Click on **Edit API**
+4\. You will see the following summary page that shows the definition was successful generated. Click on **Edit API**
 This will take you to the designer page and will populate the fields inside APIC with what was able to be pulled from the document we imported.
 
-![alt text][pic9]
+![alt text][pic6aa]
 
 # 3 Configure API <a name="create"></a>
 After importing the existing API, the first step is to configure basic security before exposing it to other developers. By creating a client key and secret security, you are able to identify the app using the services. Next, we will define the backend endpoints where the API is actually running. API Connect supports pointing to multiple backend endpoints to match your multiple build stage environments. Finally, we will configure the proxy call to invoke the endpoint.
@@ -111,20 +107,17 @@ After importing the existing API, the first step is to configure basic security 
 # 3.1 Configure API Key security <a name="create"></a>
 The API Designer is a graphical user interface within the developer toolkit and provides functions for the creation and configuration of API definitions, running offline.
 
-1\. On the Design page you will notice the small red dot indicating an error.  This is related to not having https in our schemes. 
-Click on the **+** next to the **Schemes List**
+1\. Let's set https in our schemes. 
+Click on the **+** next to the **Schemes List**.
+In the **Add schema** window from the drop down menu select https.
+Click **Create** and click **Save** to save the API changes. 
 
-In the **Add object** window click on the select option and select https.
-
-Click **Create** and click **Save** to save the API changes 
-
-![alt text][pic10]
+![alt text][pic7aa]
 
 2\. You will now be showing **Schemes List(2)**
-
 In the upper Right corner where you saved the API you will see the pop-up showing the API has been updated.  Go ahead and click the **x** to close it. 
 
-![alt text][pic10a]
+![alt text][pic9aa]
 
 **Note** Whenever you do a Save the following pop-up will show up.   Go ahead and click the **x** to close it. 
 
@@ -139,6 +132,8 @@ In the upper Right corner where you saved the API you will see the pop-up showin
 [pic10]: images/10.png
 [pic10a]: images/10a.png
 [pic10b]: images/10b.png
+[pic6aa]: images/6aa.png
+[pic7aa]: images/7aa.png
 
 # 3.2 Security Definition <a name="security_definition"></a>
 
@@ -202,7 +197,7 @@ Varible name = x-client-id
 
 1\. Click on the gateway tab.   This is where we will setup our Gateway and Portal setting for our API.  Make sure that all your updates are saved by checking the upper right corner.  
 
-![alt text][pic15]
+![alt text][pic9aa]
 
 2\. Now click on the **target-url** and use the host name that we saved from step 7 above.   Make sure to add **http://** in front it and save it.   Once done click on the **Policies** in the left menu.
 
@@ -221,6 +216,7 @@ Varible name = x-client-id
 [pic15a]: images/15a.png
 [pic16]: images/16.png
 [pic17]: images/17.png
+[pic9aa]: images/9aa.png
 
 # 4. Test the API <a name="publishing"></a>
 
