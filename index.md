@@ -1,4 +1,4 @@
-[//]:![](images\image1a.png)
+
 ![](images\banner_ws.png)
 
 [//]:![](images\2022-06-10_21-53-04.jpg)
@@ -11,14 +11,12 @@ IBM Proof of Technology sessions are complimentary classes to build
 understanding of IBM technology and software with practical
 presentations and hands-on lab exercises. 
 
-We will cover all the various components that are part of Cloud Pak for Integration. We will also discuss how these components can be used in combination. The following are the varies areas depending on your interest.
+We will cover all the various components that are part of Cloud Pak for Integration. We will also discuss how these components can be used in combination.
 
-*  **IBM App Connect**
+*  **IBM App Connect Enterprise**
 *  **IBM API Connect**
-*  **IBM DataPower Gateway**
-*  **IBM Event Streams**
+*  **IBM Event Automation**
 *  **IBM MQ Advanced**
-*  **IBM Aspera High Speed Transfer Server**
 
 
 **Cloud Pak for Integration is IBM’s hybrid integration platform (HIP) that helps to solve**
