@@ -195,7 +195,7 @@ Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** 
 
 2\. Click continue to confirm that you want to test the flow designed.
 
-![alt text][pi9a]
+![alt text][pic9a]
 
 3\. The flow is test and a "200 OK" result was shown on the page.
 You can see the response of the API flow clicking on **View Details**
@@ -270,43 +270,43 @@ Click on the **Salesforce / Retrieve accounts / Accounts** mapping and select Ac
 
 ![alt text][pic16a]
 
-3\. Now go to the Request. Click on **View available mappings and edit sample data.**
+5\. Now go to the Request. Click on **View available mappings and edit sample data.**
 Under Request URL Parameter> Object> AccountID paste the AccountID you pick previously.
 
 ![alt text][pic17a]
 
-4\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API. 
+6\. We will now add a condition to retrieve the Account for the Account ID that is passed to the API. 
 Come back to the Salesforce Connector and click on **Add condition**.
 
 ![alt text][pic18a]
 
-5\. Let's add a condition that the Account retrieve will be the one passed as request.
+7\. Let's add a condition that the Account retrieve will be the one passed as request.
 Select Account ID from the drop down menu. Then click on the blanck field, then on the burger button. 
 Under Request URL Parameter> Object select AccountID.
 
 ![alt text][pic19a]
 
-6\. Click on **Try this action**
+8\. Click on **Try this action**
 
 ![alt text][pic20a]
 
-7\. Click Continue that you want to confirm.
+9\. Click Continue that you want to confirm.
 
 ![alt text][pic21a]
 
-8\. Test shows result:200. You can click  on **View Details** to see Test Result.
+10\. Test shows result:200. You can click  on **View Details** to see Test Result.
 
-![alt text][pic22aa]
+![alt text][pic30aa]
 
-9\. Test results show the retrieve account with Account ID that you passed into the Request Sample Input.
+11\. Test results show the retrieve account with Account ID that you passed into the Request Sample Input.
 
 ![alt text][pic23a]
 
-10\. Now let's the the entire flow. Click on **Try this flow**
+12\. Now let's the the entire flow. Click on **Try this flow**
 
 ![alt text][pic24a]
 
-11\. Test results show the retrieve account as set into the response.
+13\. Test results show the retrieve account as set into the response.
 
 ![alt text][pic25aa]
 
@@ -326,7 +326,7 @@ Under Request URL Parameter> Object select AccountID.
 [pic19a]: images/19a.png
 [pic20a]: images/20a.png
 [pic21a]: images/21a.png
-[pic22aa]: images/22aa.png
+[pic30aa]: images/30aa.png
 [pic23a]: images/23a.png
 [pic24a]: images/24a.png
 [pic25aa]: images/25aa.png
