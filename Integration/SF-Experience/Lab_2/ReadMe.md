@@ -119,9 +119,8 @@ In the upper Right corner where you saved the API you will see the pop-up showin
 
 ![alt text][pic9aa]
 
-**Note** Whenever you do a Save the following pop-up will show up.   Go ahead and click the **x** to close it. 
+**Note** Whenever you do a Save the following pop-up will show up. Go ahead and click the **x** to close it. 
 
-![alt text][pic10b]
 
 [pic6a]: images/6a.png
 [pic6]: images/6.png
