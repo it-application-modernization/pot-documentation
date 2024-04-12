@@ -1,6 +1,3 @@
-
-### {{ title }}
-
 ![](images\banner_ws.png)
 
 Welcome to IBM Application Modernization Worskhop: in this session you will experience an IBM Proof of Technology.
