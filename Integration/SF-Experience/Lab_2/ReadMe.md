@@ -258,6 +258,8 @@ You will see you have both opertions available for your API.  Select the one tha
 [pic20]: images/20.png
 [pic20a]: images/20a.png
 [pic20b]: images/20b.png
+[pic10ale]: images/10ale.png
+[pic11ale]: images/11ale.png
 
 # 5. Publishing <a name="publishing"></a>
 
