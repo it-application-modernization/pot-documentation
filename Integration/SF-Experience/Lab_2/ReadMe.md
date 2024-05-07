@@ -80,7 +80,7 @@ First make sure you are logged into the CP4I Platform Navigator using the accoun
 
 There are a few ways to pull existing API’s flows or manually expose an API on this page. Whether it’s starting from scratch or pulling from an asset from a connected asset repo they all achieve the same thing.
 
-For this Lab we will use the Open API Document (salesforce-0.0.1.yaml) we downloaded from our ace integration server earlier in order to import the API.
+For this Lab we will use the Open API Document we downloaded from our ACE integration server earlier in order to import the API.
 
 1\. For now, we will click **Add** and select **API** from the dropdown.
 
@@ -109,17 +109,17 @@ The API Designer is a graphical user interface within the developer toolkit and 
 
 1\. Let's set https in our schemes. 
 Click on the **+** next to the **Schemes List**.
-In the **Add schema** window from the drop down menu select https.
-Click **Create** and click **Save** to save the API changes. 
+In the **Add schema** window from the drop down menu select **https**.
+Click **Add** and click **Save** to save the API changes. 
 
 ![alt text][pic7aa]
 
-2\. You will now be showing **Schemes List(2)**
+2\. You will now be showing **Schemes List(2)**.
 In the upper Right corner where you saved the API you will see the pop-up showing the API has been updated.  Go ahead and click the **x** to close it. 
 
 ![alt text][pic9aa]
 
-**Note** Whenever you do a Save the following pop-up will show up. Go ahead and click the **x** to close it. 
+**Note**: whenever you do a Save the following pop-up will show up. Go ahead and click the **x** to close it. 
 
 
 [pic6a]: images/6a.png
@@ -168,12 +168,12 @@ Varible name = x-client-id
 
 ![alt text][pic13b]
 
-6\. Go to the Security under Produces and click the "+" to add our security.
+6\. Go to the Security under General and click the "+" to add our security.
 * Click the Client-id and the Client-secret and then click **Create**
 
 ![alt text][pic14]
 
-7\. Once you have selected both click on Submit.  Also go to the upper right and click on **Save** to save all your updates. 
+7\. Once you have selected both in the left menu, click on Submit.  Also go to the upper right and click on **Save** to save all your updates. 
 
 ![alt text][pic14a]
 
@@ -221,21 +221,20 @@ Varible name = x-client-id
 
 In the API designer, you have the ability to test the API immediately after creation in the Assemble view!
 
-1\.Toggle Offline to activate API and to publish the API itself to the gateway for testing
-* Make sure that the Save is gray out if not click it to Save all updates.
+1\. Click on Preference icon to check if the API is Auto-published.
 
-![alt text][pic18]
+![alt text][pic10ale]
 
-2\. You will see that the API is now online.  Close the API updated pop-up in the right.  
-* You will now see that you can click on the Test tab in the menu.   Click on that to go to the Test section.
+2\. If the Auto-publish toogle is off, please turn it on and Save Preferences.
 
-![alt text][pic18a]
+![alt text][pic11ale]
 
-3\. You will see you have both opertions available for your API.  Select the one that will return the first 4 Accounts and click **Send**.
+3\. Now click on Test section.
+You will see you have both opertions available for your API.  Select the one that will return the first 4 Accounts and click **Send**.
 
 ![alt text][pic19]
 
-4\. In the first time of running the API after publishing the API, the security warning dialog box may show. Please click on the here link and accept the certificate to see the 401 message.  
+4\. If in the first time of running the API after publishing the API, the security warning dialog box is shown, please click on the here link and accept the certificate to see the 401 message.  
 * Go back to the test view and click Send again.
 
 ![alt text][pic19a]
