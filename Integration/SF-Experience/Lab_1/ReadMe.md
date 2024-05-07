@@ -254,7 +254,9 @@ Click on the **Salesforce / Retrieve accounts / Accounts** mapping and select Ac
 
 # 2c Testing the New API Operation <a name="testing_the_new_API"></a> 
 
-1\. Click on Salesforce Connector and click **Try this Action** icon. 
+1\. Click on Salesforce Connector.
+In our example, we will retrieve the first 4 Salesforce account records. In order to do this, we can set the Maximum number of items to retrieve field to 4. And then select, Process 4 items from the collection in the radio button options. As you can see there is also some error handling options provided by App Connect Designer below.
+Then click **Try this Action** icon. 
 
 ![alt text][pic13a]
 
@@ -295,10 +297,7 @@ Under Request URL Parameter> Object select AccountID.
 ![alt text][pic21a]
 
 10\. Test shows result:200. You can click  on **View Details** to see Test Result.
-
-![alt text][pic30aa]
-
-11\. Test results show the retrieve account with Account ID that you passed into the Request Sample Input.
+Test results show the retrieve account with Account ID that you passed into the Request Sample Input.
 
 ![alt text][pic23a]
 
