@@ -294,7 +294,7 @@ Something to note is we completely skipped the stage portion of the product. Nor
 [pic35]: images/35.png
 
 
-# 5. Developer Portal <a name="developer_portal"></a>
+# 6. Developer Portal <a name="developer_portal"></a>
 
 Application developers discover and use APIs by using the Developer Portal. You can customize the Developer Portal for your application developers.
 In addition to allowing application developers to find and use both free and paid APIs, the Developer Portal provides additional features including forums, blogs, comments, and ratings, together with an administrative interface for customizing the Developer Portal. 
