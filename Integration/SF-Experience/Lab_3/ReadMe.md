@@ -43,7 +43,7 @@ Click in the upper part of you windows on IBM Cloud Pak for Integration, then on
 
 ![alt text][pic6i]
 
-5\. Enter the name for the Queue, in this format "SALESFORCE.ACCOUNT.EVENT" follow by ".nickname" then click Create.  
+5\. Enter the name for the Queue, in this format "SALESFORCE.ACCOUNT.EVENT" then click Create.  
 
 ![alt text][pic6j]
 
