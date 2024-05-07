@@ -320,23 +320,9 @@ Now that your product is published let’s view it in the developer portal. This
 
 5\. The portal is setup for self service so we will create a new account as a developer.
 
-**Note** if you have already created a Portal account in another lab then you can use that to sign into the portal. 
+**Note** use the credential provided by your instructor for the Developer Portal.
 
-![alt text][pic40]
-
-6\. Fill in the form and make sure to use a valid email address since that is where the activation email is sent.  At the bottom when done click on Sign up.
-
-![alt text][pic41]
-
-7\. You will receive an email that you will copy the link and paste in to your browser to complete the registration at which point you can log in. 
-
-![alt text][pic42]
-
-8\. Go now to the Sign in and enter your Username and password you just created.
-
-![alt text][pic43]
-
-9\. Once you are logged in your can explorer varies sections in the developer portal.   For now lets go the Account Product we created and Published to. 
+6\. Once you are logged in your can explorer varies sections in the developer portal.   For now lets go the Account Product we created and Published to. 
 
 ![alt text][pic44]
 
