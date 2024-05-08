@@ -22,39 +22,39 @@
 The purpose of this LAB is to show how to retrieve Salesforce Account Records using IBM App Connect Designer on IBM Cloud Pak for Integration (CP4I). When prompted to log in to CP4I use the username and password provided to you for this lab.  
 
 **Gathering your own SalesForce Credentials**
-- For this lab, you will be provided with shared credentials.  If you would like to use your own account you can follow these steps to collect your SalesForce account details: Username, Password, Client Secret, and Client ID. You can learn how to obtain these values [here](../SF-Pre-Lab/SF-Pre-Lab.md)
+- For this lab, a Salesforce Smart Connector is already connected with shared credentials.
 
 # 2. Create a Designer Flow in CP4I to Call Salesforce  <a name="create_a_designer_flow_in_cp4i_to_call_salesforce"></a>
 
 In this section we use App Connect Designer to create a flow that will be exposed as an API to connect and call Salesforce records.
 
-2\. If you are alredy logged in IBM Cloud Pak for integration Platform Navigator, go to step 5.
+1\. If you are alredy logged in IBM Cloud Pak for integration Platform Navigator, go to step 5.
 In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
 
 ![alt text][pic1a]
 
-3\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators. You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
+2\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators. You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
 
 ![alt text][pic2a]
 
-4\. Login into CP4I Platform navigator using the credentials provided by your instructor.
+3\. Login into CP4I Platform navigator using the credentials provided by your instructor.
 
 ![alt text][pic3a]
 
-5\.  Logging in, you may see a Welcome page of CP4I Platform Navigator showing all the instances installed of your CP4I ready to be used. Navigate to the App Connect Designer, ace-designer instance.
+4\.  Logging in, you may see a Welcome page of CP4I Platform Navigator showing all the instances installed of your CP4I ready to be used. Navigate to the App Connect Designer, ace-designer instance.
 
 ![alt text][pic4a]
 
-6\. Select the tab on the left to open the Catalog screen.  The App Connect catalog provides a list of applications and APIs that are available.
+5\. Select the tab on the left to open the Catalog screen.  The App Connect catalog provides a list of applications and APIs that are available.
 
 ![alt text][pic3]
 
-4\. Now scroll down to the Salesforce connector and click on the Connect button.  We are setting up our Salesforce connector here first but this also can be done with in the flow as you are building it. 
-* **Note:** If you already have the Salasforce smart connect account setup skip to step 8.
+6\. To setup the Salesforce account connection, click on the Connect button.
+* **Note:** **If you already have the Salasforce smart connect account setup skip to step 9**.
 
 ![alt text][pic4]
 
-5\. Fill in the Salesforce connection info that you were provided from the instructor.    
+7\. Fill in the Salesforce connection info that you were provided from the instructor.    
 **Note:**
 You should have received the credentials and it will look similar to this.
 
@@ -67,23 +67,23 @@ Use this info to fill in the following fields for the Smart connector.
 
 ![alt text][pic5]
 
-7\. You will see the events and actions available with this connector. Also you can change the Account Name to something more meaningful to you by clicking on the 3 dots next to the Account name. 
+8\. You will see the events and actions available with this connector. Also you can change the Account Name to something more meaningful to you by clicking on the 3 dots next to the Account name. 
 
 ![alt text][pic6]
 
-8\. Click on the App Connect Designer dashboard icon:
+9\. Click on the App Connect Designer dashboard icon:
 
 ![alt text][pic7]
 
-9\. Select from the New drop down to create a new API flow:  
+10\. Select from the New drop down to create a new API flow:  
 
 ![alt text][pic8]
 
-10\. First thing we will do is create the model for this.  We will call the model **SalesforceRetrieve**, then click on **Create Model**
+11\. First thing we will do is create the model for this.  We will call the model **SalesforceRetrieve**, then click on **Create Model**
 
 ![alt text][pic9]
 
-11\. For this example, we will map the following properties which are all data type String. You can also set the data type to Number for properties containing numerical integer values. 
+12\. For this example, we will map the following properties which are all data type String. You can also set the data type to Number for properties containing numerical integer values. 
 
 1. AccountID
 2. AccountName
@@ -92,10 +92,10 @@ Use this info to fill in the following fields for the Smart connector.
 ![alt text][pic10]
 
 
-12\. Now that we have defined the properties in our API model definition, we can implement a flow by clicking on the Operations tab. The Operations tab is located next to the Properties tab.
+13\. Now that we have defined the properties in our API model definition, we can implement a flow by clicking on the Operations tab. The Operations tab is located next to the Properties tab.
 From the Operations drop-down menu, select Add a Custom Operation. Here we will customize the operation that we want our API to perform. 
 
-13\. Customize the details of your API operation. 
+14\. Customize the details of your API operation. 
 * **Note**: You can optionally set a description for your individual API operation. 
     * Display Name: **Retrieve Accounts**
     * HTTP Verb: **GET** 
@@ -103,23 +103,23 @@ From the Operations drop-down menu, select Add a Custom Operation. Here we will 
         * Note: The operation name will be a part of your API Endpoint URL and is therefore consumer-facing.
     * Response body: **SalesforceRetrieve**
 
-14\. After customizing your API operation, the details should match the image below.
+15\. After customizing your API operation, the details should match the image below.
 
 ![alt text][pic11]
 
 Now click the **Get /SalesforceRetrieve/accounts** tab can click the **Implement Flow** button next to our API operation definition. This will take us to the App Connect Designer flow. This is where we can insert Smart Connectors to communicate with a variety of external applications as well as implement conditional logic and callable flows. 
 
-15\. After clicking the blue plus icon on our flow designer interface, we will be able to see the variety of Smart Connectors offered by IBM App Connect Designer. You will also see an option for callable flows which allows you to integrate more complex logic into your Designer flows by building them in App Connect Enterprise Toolkit and calling them via REST API protocols. 
+16\. After clicking the blue plus icon on our flow designer interface, we will be able to see the variety of Smart Connectors offered by IBM App Connect Designer. You will also see an option for callable flows which allows you to integrate more complex logic into your Designer flows by building them in App Connect Enterprise Toolkit and calling them via REST API protocols. 
 
 ![alt text][pic12]
 
-16\. For our lab, we will be using the **Salesforce smart connector**, so let us scroll down to the Salesforce connector and select it.
+17\. For our lab, we will be using the **Salesforce smart connector**, so let us scroll down to the Salesforce connector and select it.
 
-17\. There is a vast catalog of different Salesforce objects you can interact with from App Connect Designer. In this lab we are retrieving Account information so go ahead and drop down the Accounts option and click Retrieve accounts.
+18\. There is a vast catalog of different Salesforce objects you can interact with from App Connect Designer. In this lab we are retrieving Account information so go ahead and drop down the Accounts option and click Retrieve accounts.
 
 ![alt text][pic13]
 
-18\. The next interface that populates under our Designer flow allows us to add conditionals to our integration flow. For example, if we want to retrieve all account records for a particular account, we can specify this condition by setting the AccountName key to the respective account.   
+19\. The next interface that populates under our Designer flow allows us to add conditionals to our integration flow. For example, if we want to retrieve all account records for a particular account, we can specify this condition by setting the AccountName key to the respective account.   
 
 In our example, we will retrieve the first 4 Salesforce account records. In order to do this, we can set the Maximum number of items to retrieve field to 4.  And then select, Process 4 items from the collection in the radio button options. As you can see there is also some error handling options provided by App Connect Designer below.
 
@@ -127,19 +127,19 @@ A helpful feature offered by the Smart Connectors is the **“Try this action”
 
 ![alt text][pic14]
 
-19\. You can now click on the View details to see the results. This is done even before your API is complete and allows you to see info that is returned from Salesforce to be mapped. 
+20\. You can now click on the View details to see the results. This is done even before your API is complete and allows you to see info that is returned from Salesforce to be mapped. 
 
 ![alt text][pic15]
 
-20\. This shows the Test Results details.
+21\. This shows the Test Results details.
 
 ![alt text][pic16]
 
-21\. Now we can configurate our API Response body to populate a successful response message with the data fields we are interested in returning to our consumer. Go ahead and click the **Response** button on the integration flow (outlined in the blue box below).
+22\. Now we can configurate our API Response body to populate a successful response message with the data fields we are interested in returning to our consumer. Go ahead and click the **Response** button on the integration flow (outlined in the blue box below).
 
 ![alt text][pic17]
 
-22\. Now we will map our API Response keys to the respective values we want our consumer to obtain from Salesforce. Let us start with the **AccountID** field. 
+23\. Now we will map our API Response keys to the respective values we want our consumer to obtain from Salesforce. Let us start with the **AccountID** field. 
 
 * Click on the blank Account ID field
 * You will see the list of **Available mappings**, listed by relevance.
@@ -148,11 +148,11 @@ Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** 
 
 ![alt text][pic19]
 
-23\. After populating all the fields your mapping should match the image attached below.
+24\. After populating all the fields your mapping should match the image attached below.
 
 ![alt text][pic20]
 
-24\. We are now ready to start and Test the API but first need to give it a meaningful name.  This will automatically be saved.  Click the Done button to close the flow
+25\. We are now ready to start and Test the API but first need to give it a meaningful name.  This will automatically be saved.  Click the Done button to close the flow
 
 ![alt text][pic21]
 
