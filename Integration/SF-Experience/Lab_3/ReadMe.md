@@ -113,8 +113,6 @@ Enter the API AddSalesforceAccount
 5\. Now return to the tab where you have the MQ console opened. Inside your queue manager and the local queue you just create you should see messages for your new account created in Salesforce using the API AddSalesforceAccount.
 * This is where we will check when we test this flow. 
 
-![alt text][pic14aa]
-
 
 [pic0]: images/0.png
 [pic1]: images/1.png
