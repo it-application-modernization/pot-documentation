@@ -113,7 +113,7 @@ Now click the **Get /SalesforceRetrieve/accounts** tab can click the **Implement
 
 ![alt text][pic12]
 
-17\. For our lab, we will be using the **Salesforce smart connector**, so let us scroll down to the Salesforce connector and select it.
+17\. For our lab, we will be using the **Salesforce smart connector**, so scroll down to the Salesforce connector and select it.
 
 18\. There is a vast catalog of different Salesforce objects you can interact with from App Connect Designer. In this lab we are retrieving Account information so go ahead and drop down the Accounts option and click Retrieve accounts.
 
@@ -144,7 +144,7 @@ A helpful feature offered by the Smart Connectors is the **“Try this action”
 * Click on the blank Account ID field
 * You will see the list of **Available mappings**, listed by relevance.
 
-Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** mapping. Repeat the process for the other two data fields. After populating all the fields your mapping should match the image attached below.
+Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** mapping. Repeat the process for the other two data fields.
 
 ![alt text][pic19]
 
@@ -219,7 +219,7 @@ You can see the response of the API flow clicking on **View Details**
 
 
 # 2B Add an Additional Operation for our Salesforce API <a name="add_an_additional_operation_for_our_salesforce_API"></a>
-In this section we will add an additional operation to get Account by ID.
+In this section we will add an additional operation to get Account by ID.  
 1\. Click on **Done**. 
 
 ![alt text][pic12a]
