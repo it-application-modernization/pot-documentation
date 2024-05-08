@@ -169,7 +169,7 @@ Click **OK**.
 [pic23]: images/23.png
 [pic24]: images/24.png
 [pic37]: images/37.png
-[pic12]: images/12a.png
+[pic12a]: images/12a.png
 
 # 4. Subscribe to the API Product<a name="subscribe_product"></a>
 
