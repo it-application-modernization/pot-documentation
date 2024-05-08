@@ -22,7 +22,7 @@ In an event-driven flow you identify an event that can occur in your source appl
 * The purpose of this LAB is to show how to create an event-driven flow to identify when new Salesforce Account Records are created. 
 
 
-# 2. Setup connection to Smart connectors for this lab.<a name="Setup_connections"></a>
+# 2. Setup connection to Smart connectors for this lab<a name="Setup_connections"></a>
 
 In this section we use App Connect Designer to create a flow that is triggered when an event occurs on Salesforce records.
 
@@ -57,16 +57,15 @@ Click in the upper part of you windows on IBM Cloud Pak for Integration, then on
 
 # 3. Create a Designer Event Flow in CP4I for Salesforce  <a name="create_a_designer_flow"></a>
 
-1\. In App Connect Designer, click on the dashboard icon:
+1\. In App Connect Designer, click on the dashboard icon.
 
 ![alt text][pic7]
 
-2\. Select from the New drop down to create a new Event-driven flow:  
+2\. Select from the New drop down to create a new Event-driven flow.  
 
 ![alt text][pic8]
 
-3\. First thing enter a name that identifies the purpose of your flow, for example:
-Salesforce New Account Events. 
+3\. Enter a name that identifies the purpose of your flow, for example "Salesforce New Account Events". 
 
 ![alt text][pic9]
 
