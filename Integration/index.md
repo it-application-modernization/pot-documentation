@@ -8,9 +8,8 @@ The labs are grouped under varies Experience and in each Experience, you will se
 |  Subject                            | Description                                            |                                                               
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 |[Salesforce Experience](SF-Experience/index.md)       | **Multi-Style Integration with IBM App Connect and IBM API Connect the SalesForce experience**  Create no-code integrations using IBM App Connect and expose and manage the APIs created with IBM API Connect. We will also show the value of Event Driven flows to react to events in backend systems. 
-|-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [ServiceNow Experience](SN-Experience/index.md)       | **Multi-Style Integration with IBM App Connect and IBM API Connect the ServiceNow experience**  Create no-code integrations using IBM App Connect and expose and manage the APIs created with IBM API Connect. We will also show the value of Event Driven flows to react to events in backend systems. 
-|-----------------------------|------------------------------------------------------------------------------------------------------------|
+|-----------------------------|
+------------------------------------------------------------------------------------------------------------|
 |[Toolkit Experience](Toolkit-Experience/index.md)       | **Basic PING flow with Toolkit** This is a basic toolkit lab that you will create a simple Ping flow and then test locally and deploy to the ACE runtime in CP4I.  We will also show how to distribute workloads using IBM App Connect Enterprise Callable Flows.<br><br>**Environments and Prerequisites:** For these labs you will have to install the Toolkit
 |--------------------------------------------------------------------------------------------------------------------------------------|
 
