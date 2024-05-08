@@ -208,7 +208,7 @@ Varible name = x-client-id
 
 ![alt text][pic16]
 
-3\. Below the canvas is the details for the Invoke.  Scroll down to the URL and you will see $(target-url) please type $(request.path) after it.  This will append the path we created earlier to our Invoke components URL. Click Save in the upper right corner.
+4\. Below the canvas is the details for the Invoke.  Scroll down to the URL and you will see $(target-url) please type $(request.path) after it.  This will append the path we created earlier to our Invoke components URL. Click Save in the upper right corner.
 
 ![alt text][pic17]
 
@@ -321,76 +321,75 @@ Now that your product is published let’s view it in the developer portal. This
 
 5\. The portal is setup for self service so we will create a new account as a developer.
 
-**Note** use the credential for the Consumer Organization you create [here](APIC-labs/APIC-prereq/index.md)
+**Note** use the credentials for the Consumer Organization you create [here](APIC-labs/APIC-prereq/index.md)
 
 6\. Once you are logged in your can explorer varies sections in the developer portal.   For now lets go the Account Product we created and Published to. 
 
 ![alt text][pic44]
 
 
-10\. Now from the Products page we see our API for Salesforce Accounts and below that you see Plans.  This can be configured back in the Products section where you may add plans for Silver and Gold plans.   We have just the default for this one. Click **Select** on the Default Plan tile.
+7\. Now from the Products page we see our API for Salesforce Accounts and below that you see Plans.  This can be configured back in the Products section where you may add plans for Silver and Gold plans.   We have just the default for this one. Click **Select** on the Default Plan tile.
 
 ![alt text][pic45a]
 
-11\. We will now need to Subscribe to the API to use it.  You may have other applications already created from other labs.   We will create a new one for this one.  
+8\. We will now need to Subscribe to the API to use it.  You may have other applications already created from other labs.   We will create a new one for this one.  
 
 ![alt text][pic46a]
 
 
-12\. Enter a name for this application and click **Save**.
+9\. Enter a name for this application and click **Save**.
 
 ![alt text][pic47]
 
-13\. You will get the following page.  Save the Key and Secret into notepad and then click **X** to close window.
+10\. You will get the following page.  Save the Key and Secret into notepad and then click **X** to close window.
 
 ![alt text][pic48a]
 
-15\. With an app now created let’s travel back to the API Products page of the developer portal (upper left) and click on the product shown that we created and published to. 
+11\. With an app now created let’s travel back to the API Products page of the developer portal (upper left) and click on the product shown that we created and published to. 
 
 ![alt text][pic50]
 
-16\. We will also need to subscribe to a plan for this Product.  Since we only have the Default plan we will use that.
+12\. We will also need to subscribe to a plan for this Product.  Since we only have the Default plan we will use that.
 
 ![alt text][pic51a]
 
 
-17\. Select the existing application.
+13\. Select the existing application.
 
 ![alt text][pic52a]
 
 
-18\. Confirm subscription click next
+14\. Confirm subscription click next
 
 ![alt text][pic53a]
 
-19\. Subscription completed.  Click done
+15\. Subscription completed.  Click done
 
 ![alt text][pic54a]
 
-20\. Click on the API that we will now test.
+16\. Click on the API that we will now test.
 
 ![alt text][pic55]
 
-21\. Here we will select the GET account operation on the and then select Try it.   
+17\. Here we will select the GET account operation on the and then select Try it.   
 The Client ID will have the App name we created earlier.   You will need to copy the secret that we saved and paste it in the Client secret. Then click Send.
 
 ![alt text][pic56]
 
-22\. You will see the response on the bottom of the page. 
+18\. You will see the response on the bottom of the page. 
 
 ![alt text][pic57]
 
-23\. Now click Send a few more times to run the API several times, click on Apps on the top menu and select the Active app that we are using.  
+19\. Now click Send a few more times to run the API several times, click on Apps on the top menu and select the Active app that we are using.  
 
 ![alt text][pic58]
 
-24\. This will give you info on the APIs that you are running. 
+20\. This will give you info on the APIs that you are running. 
 
 ![alt text][pic59]
 
 [Return to main lab page](../index.md)
 
-The End.
 
 [pic36]: images/36.png
 [pic37]: images/37.png
