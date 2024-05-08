@@ -301,11 +301,11 @@ Test results show the retrieve account with Account ID that you passed into the 
 
 ![alt text][pic23a]
 
-12\. Now let's the the entire flow. Click on **Try this flow**
+11\. Now let's the the entire flow. Click on **Try this flow**
 
 ![alt text][pic24a]
 
-13\. Test results show the retrieve account as set into the response.
+12\. Test results show the retrieve account as set into the response.
 
 ![alt text][pic25aa]
 
