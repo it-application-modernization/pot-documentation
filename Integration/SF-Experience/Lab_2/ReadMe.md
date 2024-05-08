@@ -28,15 +28,16 @@ IBM API connect is an integrated API management offering, where all of the steps
 
 # 2. The Steps of the API Lifecycle Include Creating, Running, Managing, and Securing APIs <a name="the_steps_of_the_api_lifecycle_include_creating_running_managing_and_securing_api"></a>
 
-* Create Develop and write the API definition and implementation, and test the API.
+* Create, develop and write the API definition and implementation, and test the API.
 * Run Package and deploy the API. Ensure that the API is hosted securely on a stable platform.
-* Create and manage self-service portals that expose the API to API consumers. Monitor the set of rules and conditions that govern the API to ensure it is fulfilling its intended purpose, and make adjustments if necessary. Retire and archive the API when appropriate.
-* Access control, monitoring, and logging to properly secure the API.
+* Create and manage self-service portals that expose the API to API consumers. Monitor the set of rules and conditions that governs the API to ensure it is fulfilling its intended purpose, and make adjustments if necessary. Retire and archive the API when appropriate.
+* Access control, monitoring and logging to properly secure the API.
 
 # 2.1 Let's Start <a name="lets_start"></a>
 First make sure you are logged into the CP4I Platform Navigator using the account the instructor provided to you. 
 
-1\. If you are alredy logged in IBM Cloud Pak for integration Platform Navigator, go to step 5. In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
+1\. If you are alredy logged in IBM Cloud Pak for integration Platform Navigator, go to step 4. 
+If not, in a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
 
 ![alt text][pic1a]
 
@@ -44,15 +45,15 @@ First make sure you are logged into the CP4I Platform Navigator using the accoun
 
 ![alt text][pic2a]
 
-3\. Login into CP4I Platform navigator using the credentials provided by your instructor.
+3\. Login into CP4I Platform navigator using the credentials provided by your instructor. Logging in, you may see a Welcome page of CP4I Platform Navigator showing all the instances installed of your CP4I ready to be used.
 
 ![alt text][pic3a]
 
-4\.  Logging in, you may see a Welcome page of CP4I Platform Navigator showing all the instances installed of your CP4I ready to be used. Navigate to the API Connect instance, apic for api management.
+4\. Navigate to API Connect instance, apic for api management.
 
 ![alt text][pic4a]
 
-5\. You will now be on the APIC log in page. Select the **Cloud Pak User Registry** 
+5\. You will now be on the APIC log in page. Select the **Cloud Pak User Registry** .
 
 ![alt text][pic5a]
 
@@ -140,17 +141,17 @@ After importing the existing API, the first step is to configure basic security 
 
 1\. Moving on to Securing the API. On the left-hand side let’s click on **Security Schemes.** 
 
-Click on the **+** and we will start adding the Client ID
+Click on the **+** and we will start adding the Client ID.
 
 ![alt text][pic11]
 
 2\. We will first create a client-id filling in the page with the following info.  
 * Enter "Client-id" for the Name of the key.
-* For the Security Deinition Type click on the drop down and select **apiKey**
+* For the Security Definition Type click on the drop down and select **apiKey**.
 
 ![alt text][pic12]
 
-3\. After you select apiKey the following window will open.  Finish filling it in with the rest of the info and click **Create**
+3\. After you select apiKey the following window will open.  Finish filling it in with the rest of the info and click **Create**.
 
 Key type = client_id
 
@@ -164,12 +165,12 @@ Varible name = x-client-id
 
 ![alt text][pic13a]
 
-5\. You should now have a Client id and secret for your Security Schemes (2).
+5\. You should now have a client id and secret for your Security Schemes (2).
 
 ![alt text][pic13b]
 
 6\. Go to the Security under General and click the "+" to add our security.
-* Click the Client-id and the Client-secret and then click **Create**
+* Click the Client-id and the Client-secret and then click **Create**.
 
 ![alt text][pic14]
 
@@ -225,7 +226,7 @@ In the API designer, you have the ability to test the API immediately after crea
 
 ![alt text][pic10ale]
 
-2\. If the Auto-publish toogle is off, please turn it on and Save Preferences.
+2\. If the Auto-publish toogle is off, turn it on and Save Preferences.
 
 ![alt text][pic11ale]
 
@@ -320,7 +321,7 @@ Now that your product is published let’s view it in the developer portal. This
 
 5\. The portal is setup for self service so we will create a new account as a developer.
 
-**Note** use the credential provided by your instructor for the Developer Portal.
+**Note** use the credential for the Consumer Organization you create [here](APIC-labs/APIC-prereq/index.md)
 
 6\. Once you are logged in your can explorer varies sections in the developer portal.   For now lets go the Account Product we created and Published to. 
 
