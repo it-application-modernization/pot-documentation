@@ -50,7 +50,7 @@ In a browser, enter the URL provided by your instructor to access Red Hat OpenSh
 ![alt text][pic3]
 
 6\. To setup the Salesforce account connection, click on the Connect button.
-* **Note:** **If you already have the Salasforce smart connect account setup skip to step 9**.
+* **Note:** **If you already have the Salesforce smart connect account setup skip to step 9**.
 
 ![alt text][pic4]
 
