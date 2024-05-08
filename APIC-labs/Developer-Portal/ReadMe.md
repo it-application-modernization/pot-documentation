@@ -128,7 +128,7 @@ Click on **Sign in** on the Dev Portal screen in the upper right corner.
 1\. You can explore various sections in the Developer Portal. Click on **View All** under Explore API Products.
 if you're logged with the Consumer Account you created in the prerequisites, you will see
 
-![alt text][pic12]
+![alt text][pic12a]
 
 2\. The Products that you see in your Portal may vary from what is shown in the lab images.  Click on **Customer 1.0.0**.  This is the Product that was published in the "Create and Secure an API to Proxy an Existing REST Web Service" lab.
 
