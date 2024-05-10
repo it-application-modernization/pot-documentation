@@ -1,6 +1,7 @@
-# IBM API Connect
+# Integration Experiences  
+## Salesforce Experience
 
-
+### Multi-Style Integration with IBM Cloud Pak for Integration the Salesforce Experience 
 ## Lab 2 - Expose your Salesforce API in IBM API Connect 
 
 [Return to main lab page](../index.md)

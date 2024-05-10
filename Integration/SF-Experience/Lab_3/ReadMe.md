@@ -1,6 +1,9 @@
-# IBM App Connect Enterprise
+# Integration Experiences  
+## Salesforce Experience  
 
-## App Connect Designer Salesforce
+### Multi-Style Integration with IBM Cloud Pak for Integration the Salesforce Experience   
+
+## Lab 3 - Build Salesforce Event Driven flow
 
 [Return to main lab page](../index.md)
 
