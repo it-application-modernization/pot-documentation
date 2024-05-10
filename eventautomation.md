@@ -6,7 +6,7 @@ To help you start exploring the features of IBM Event Automation, the tutorial i
 
 The tutorial topics simulate aspects of a clothing retailer, with topics relating to sales, stock management, and employee activities. Messages on the topics are consistent (for example, events on the topic for cancelled orders use order IDs that are used in events on the orders topic) to allow you to experiment with joining and correlating events from different topics. Some topics include events that are intentionally delayed, duplicated, or produced out of sequence, to allow you to learn how to use Event Automation to correctly process topics like this.
 
-![](images\scenario.png)
+![](images/scenario.png)
 
 [Return to main lab section](../index.md#lab-section)
 ## Lab Abstracts
