@@ -1,8 +1,9 @@
 # Integration Experiences  
-## Salesforce Experience
+## Salesforce Experience - Lab 1 
 
-### Multi-Style Integration with IBM Cloud Pak for Integration the Salesforce Experience  
-## Lab 1 - Build Salesforce API in minutes
+Build Salesforce API in minutes  
+Multi-Style Integration with IBM Cloud Pak for Integration the Salesforce Experience.
+
 
 [Return to main lab page](../index.md)
 
