@@ -4,7 +4,7 @@
 
 [Return to main APIC lab page](../ReadMe.md#lab-abstracts)
 
-Lab prerequisite: "The Developer Portal Experience"
+<span style="color: red">Lab prerequisite:</span> "The Developer Portal Experience"
 
 ---
 
