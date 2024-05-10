@@ -26,7 +26,7 @@ We will cover all the various components that are part of Cloud Pak for Integrat
 ## Access the environment 
 Click [here](access-env.md) for the instruction to access the environment.
 
-## Lab section:
+## Lab section
 Navigate into each topic to follow the labs.
 
 
