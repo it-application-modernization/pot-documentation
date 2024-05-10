@@ -72,7 +72,7 @@ In this section, you will create a new OAuth provider API, configure which grant
 In order to configure user authentication, you must first define the registry to use, which may be LDAP, local user registry, or an authentication URL. For this lab, you will implement an Authentication
 URL.
 
-If you are already logged in API Connect and continuing from the previous lab, go directly to step 4.
+If you are already logged in API Connect and continuing from the previous lab, go directly to step 4.  
 1\. To access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md). 
 
 ![alt text][pic104]
