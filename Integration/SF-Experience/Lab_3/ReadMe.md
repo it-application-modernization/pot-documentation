@@ -1,9 +1,7 @@
 # Integration Experiences  
-## Salesforce Experience  
-
-### Multi-Style Integration with IBM Cloud Pak for Integration the Salesforce Experience   
-
-## Lab 3 - Build Salesforce Event Driven flow
+## Salesforce Experience   
+## Lab 3: Build Salesforce Event Driven flow  
+Multi-Style Integration with IBM Cloud Pak for Integration the Salesforce Experience.  
 
 [Return to main lab page](../index.md)
 
