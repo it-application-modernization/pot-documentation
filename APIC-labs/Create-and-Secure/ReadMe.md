@@ -48,7 +48,7 @@ Before beginning this lab, you will want to make sure that you have completed th
 
 First, you will deploy a Customer Database REST service and then you will download the OpenAPI file for the Customer Database REST service that you deployed.
 
-1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md).
+1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](../../access-env.md).
 
 2\. Logging in, you may see a Welcome page showing all the instances installed of your CP4I ready to be used.  
 Navigate to the **App Connect Dashboard** , designer-authoring instance.  

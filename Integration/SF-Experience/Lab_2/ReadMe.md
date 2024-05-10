@@ -36,7 +36,7 @@ IBM API connect is an integrated API management offering, where all of the steps
 # 2.1 Let's Start <a name="lets_start"></a>
 First make sure you are logged into the CP4I Platform Navigator using the account the instructor provided to you. 
 
-1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md).
+1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](../../../access-env.md).
 If you are alredy logged in IBM Cloud Pak for integration Platform UI, continue to step 2.  
 
 2\. Navigate to API Connect instance, apic-cluster instance (Type api-management).
