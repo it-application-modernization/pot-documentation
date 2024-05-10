@@ -1,7 +1,8 @@
-# IBM API Connect
+# API Management Experience
 
 ## Introduction
-IBM API Connect is an integrated API management offering, with capabilities and tooling for all phases of the API lifecycle. Key steps of the API lifecycle include create, secure, manage, socialize, and analyze.
+In this lab you will explore an API Management platform for use in your API Economy.
+**IBM API Connect (APIC)** is an integrated API management offering, with capabilities and tooling for all phases of the API lifecycle. Key steps of the API lifecycle include create, secure, manage, socialize and analyze.
 
 [Return to main lab section](../index.md#lab-section)
 

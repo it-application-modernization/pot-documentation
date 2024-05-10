@@ -1,6 +1,10 @@
-# IBM App Connect Enterprise
+# Integration Experiences  
+
 ## Introduction
-The labs are grouped under varies Experience and in each Experience, you will see various labs.  We will cover mainly ACE Designer. We will be creating Event flows and APIs with Designer and then import them into APIC.
+In this lab you will explorer key capabilities using **IBM App Connect Enterprise (ACE)** to build integrations solutions.
+IBM App Connect  is an integration platform that enables businesses to connect various applications and data sources, regardless of whether they are located on-premises or in the cloud: App Connect Enterprise provides a comprehensive set of tools and capabilities for designing, developing, deploying, and managing integration solutions.  
+
+The labs are grouped under varies Experience and in each Experience, you will see various labs.  We will cover mainly ACE Designer. We will be creating Event flows and APIs with Designer and then import them into IBM API Connect.
 
 [Return to main lab section](../index.md#lab-section)
 ## Lab Abstracts
