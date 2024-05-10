@@ -30,7 +30,7 @@ The purpose of this LAB is to show how to retrieve Salesforce Account Records us
 
 In this section we use App Connect Designer to create a flow that will be exposed as an API to connect and call Salesforce records.
 
-1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md).
+1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](../../../access-env.md).
 If you are alredy logged in IBM Cloud Pak for integration Platform UI, continue to step 2.
 
 2\.  Navigate to the App Connect Designer, designer-authoring instance.

@@ -47,7 +47,7 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 ## 2a. Login to the API Connect Developer Portal <a name="portal_login"></a>
 If you are already logged in API Connect and continuing from the previous lab, go directly to step 4.  
-1\. To access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md). 
+1\. To access Cloud Pak for Integration Platform UI as described in Access Environment section [here](../../access-env.md). 
 
 ![alt text][pic104]
 
