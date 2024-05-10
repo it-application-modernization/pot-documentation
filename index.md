@@ -27,8 +27,7 @@ We will cover all the various components that are part of Cloud Pak for Integrat
 Click [here](access-env.md) for the instruction to access the environment.
 
 ## Lab section:
-To access the Openshift Cluster please follow the link shared with you by your instructor.
-
+Navigate into each topic to follow the labs.
 
 
 |  Topic                                | Description                                                                
