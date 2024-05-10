@@ -27,7 +27,7 @@ In an event-driven flow you identify an event that can occur in your source appl
 
 In this section we use App Connect Designer to create a flow that is triggered when an event occurs on Salesforce records.
 
-1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md).
+1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](/access-env.md).
 If you are alredy logged in IBM Cloud Pak for integration Platform UI, continue to step 2.  
 
 2\. For this lab we will be using MQ to receive the events from App Connect so we will go and create a new Queue Manager. 
