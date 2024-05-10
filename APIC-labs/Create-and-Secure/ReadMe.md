@@ -15,14 +15,14 @@
 - [3. Import an API into the Developer Workspace](#import_api)
 
 - [4. Configure the API ](#configure_api)
-	* [3a. Configure Client Secret API Key Security](#configure_security)
-	* [3b. Review and update the Target-URL for Sandbox Environment](#target_url)
-	* [3c. Review the Proxy Call in Designer](#proxy)
+	* [4a. Configure Client Secret API Key Security](#configure_security)
+	* [4b. Review and update the Target-URL for Sandbox Environment](#target_url)
+	* [4c. Review the Proxy Call in Designer](#proxy)
 
 - [5. Test the API](#test_api)
 
 - [6. Publish API](#publish_api)
-	* [5a. Create Customer Product and Add API](#customer_product)
+	* [6a. Create Customer Product and Add API](#customer_product)
 
 - [7. Summary](#summary)
 
@@ -192,13 +192,13 @@ Finally, we will configure the proxy call to invoke the endpoint.
 
 ![alt text][pic18]
 
-5\. From the **Select an option** drop-down menu, select **https**.  Click **Create**.
+2\. From the **Select an option** drop-down menu, select **https**.  Click **Create**.
 
 ![alt text][pic19]
 
 ![alt text][pic20]
 
-6\. Expand the **Schemes List** section.  Under the Schemes List, **http** and **https** are listed.  Click **Save**.
+3\. Expand the **Schemes List** section.  Under the Schemes List, **http** and **https** are listed.  Click **Save**.
 
 ![alt text][pic21]
 
@@ -206,59 +206,59 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 
 ![alt text][pic22]
 
-7\. Make sure that the **Design** tab is selected and click on the **+** next to **Security Schemes**.
+4\. Make sure that the **Design** tab is selected and click on the **+** next to **Security Schemes**.
 
 ![alt text][pic23]
 
-8\. For the **Security Definition Name (Key)**, enter a name (e.g., **X-IBM-Client-Id**) and select **apiKey** in the drop-down menu for **Security Definition Type**.
+5\. For the **Security Definition Name (Key)**, enter a name (e.g., **X-IBM-Client-Id**) and select **apiKey** in the drop-down menu for **Security Definition Type**.
 
 ![alt text][pic24]
 
-9\. Select **client_id** from the drop-down menu for **Key Type (optional)**, select **header** from the drop-down menu for **Located In**, and enter a name (e.g., **X-IBM-Client-Id**) for **Variable name**.  **Note:** Before clicking Create, make sure that the **This field is required** indicator is no longer there.  Click **Create**.
+6\. Select **client_id** from the drop-down menu for **Key Type (optional)**, select **header** from the drop-down menu for **Located In**, and enter a name (e.g., **X-IBM-Client-Id**) for **Variable name**.  **Note:** Before clicking Create, make sure that the **This field is required** indicator is no longer there.  Click **Create**.
 
 ![alt text][pic25]
 
-10\. Click **Save**.
+7\. Click **Save**.
 
 ![alt text][pic26]
 
-11\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
+8\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
 
 ![alt text][pic22]
 
-12\. Make sure that the **Design** tab is selected and click on the **+** next to **Security Schemes**.
+9\. Make sure that the **Design** tab is selected and click on the **+** next to **Security Schemes**.
 
 ![alt text][pic31]
 
-13\. For the **Security Definition Name (Key)**, enter a name (e.g., **X-IBM-Client-Secret**) and select **apiKey** in the drop-down menu for **Security Definition Type**.
+10\. For the **Security Definition Name (Key)**, enter a name (e.g., **X-IBM-Client-Secret**) and select **apiKey** in the drop-down menu for **Security Definition Type**.
 
 ![alt text][pic32]
 
-14\. Select **client_secret** from the drop-down menu for **Key Type (optional)**, select **header** from the drop-down menu for **Located In**, and enter a name (e.g., **X-IBM-Client-Secret**) for **Variable name**.  Before clicking Create, make sure that the **This field is required** indicator is no longer there.  Click **Create**.
+11\. Select **client_secret** from the drop-down menu for **Key Type (optional)**, select **header** from the drop-down menu for **Located In**, and enter a name (e.g., **X-IBM-Client-Secret**) for **Variable name**.  Before clicking Create, make sure that the **This field is required** indicator is no longer there.  Click **Create**.
 
 ![alt text][pic33]
 
-15\. Click **Save**.
+12\. Click **Save**.
 
 ![alt text][pic26]
 
-16\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
+13\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
 
 ![alt text][pic22]
 
-17\. Make sure that the **Design** tab is selected and click on **+** next to **Security**.
+14\. Make sure that the **Design** tab is selected and click on **+** next to **Security**.
 
 ![alt text][pic34]
 
-18\. Select **"X-IBM-Client-Id"** and **"X-IBM-Client-Secret"** and click **Create**.
+15\. Select **"X-IBM-Client-Id"** and **"X-IBM-Client-Secret"** and click **Create**.
 
 ![alt text][pic35]
 
-19\. Click **Save**.
+16\. Click **Save**.
 
 ![alt text][pic26]
 
-20\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
+17\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
 
 ![alt text][pic22]
 
@@ -379,7 +379,7 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 [pic105]: images/105.png
 [pic106]: images/106.png
 
-# 4. Test the API <a name="test_api"></a>
+# 5. Test the API <a name="test_api"></a>
 
 In the API Designer, you have the ability to test the API immediately after creation in the Assemble view!
 
@@ -555,13 +555,13 @@ and click **Send**.
 [pic8a]: images/8a.png
 [pic9a]: images/9a.png
 
-# 5. Publish API <a name="publish_api"></a>
+# 6. Publish API <a name="publish_api"></a>
 
 In this lab, you will make the API available to developers. In order to do so, the API must be first put into a product and then published to the Sandbox catalog. A product dictates rate limits and API throttling.
 
 When the product is published, the Invoke policy defined in the previous lab is written to the gateway. 
 
-## 5a. Create Customer Product and Add API <a name="customer_product"></a>
+## 6a. Create Customer Product and Add API <a name="customer_product"></a>
 
 1\. From the vertical navigation menu on the left, click **Develop**.
 
@@ -613,7 +613,7 @@ When the product is published, the Invoke policy defined in the previous lab is 
 [pic89]: images/89.png
 [pic90]: images/90.png
 
-# 6.Summary <a name="summary"></a>
+# 7.Summary <a name="summary"></a>
 
 Congratulations, you have completed the **Create and Secure an API** lab. Throughout the lab, you learned how to:
 
