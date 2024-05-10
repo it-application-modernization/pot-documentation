@@ -48,68 +48,56 @@ Before beginning this lab, you will want to make sure that you have completed th
 
 First, you will deploy a Customer Database REST service and then you will download the OpenAPI file for the Customer Database REST service that you deployed.
 
-1\. In a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
+1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md).
 
-![alt text][pic1a]
-
-2\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators.
-You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
-
-![alt text][pic2a]
-
-3\. Login into CP4I Platform navigator using the credentials provided by your instructor.
-
-![alt text][pic3a]
-
-3\. Logging in, you may see a Welcome page showing all the instances installed of your CP4I ready to be used.
-Navigate to the **App Connect Dashboard** , ace-dashboard instance.
+2\. Logging in, you may see a Welcome page showing all the instances installed of your CP4I ready to be used.  
+Navigate to the **App Connect Dashboard** , designer-authoring instance.  
 
 ![alt text][pic4a]
 
-
-4\. Click on the **Dashboard** icon in the left navigation.
+3\. Click on the **Dashboard** icon in the left navigation.
 
 ![alt text][pic93]
 
-5\. For this lab, we already have the REST service built and available as a **bar** file. You can download the **CustomerDatabaseV1.bar** file for the service [here](./resources/CustomerDatabaseV1.bar).
+4\. For this lab, we already have the REST service built and available as a **bar** file. You can download the **CustomerDatabaseV1.bar** file for the service [here](./resources/CustomerDatabaseV1.bar).
 
-6\. Click on **Deploy Integrations**.
+5\. Click on **Deploy Integrations**.
 
 ![alt text][pic94]
 
-7\. Click **Quick start integration** and click **Next**.
+6\. Click **Quick start integration** and click **Next**.
 
 ![alt text][pic95]
 
-8\. Drag and drop the BAR file that you just downloaded or click to upload.  Once you have dragged and dropped or uploaded, you will see the bar file listed under **to be imported**.  Click **Next**.
+7\. Drag and drop the BAR file that you just downloaded or click to upload.  Once you have dragged and dropped or uploaded, you will see the bar file listed under **to be imported**.  Click **Next**.
 
 ![alt text][pic96]
 
-9\. Click **Next**.
+8\. Click **Next**.
 
 ![alt text][pic97]
 
-10\. Give the Integration Server a **Name** (e.g., username-customerdb) and click **Create**.
+9\. Give the Integration Server a **Name** (e.g., username-customerdb) and click **Create**.
 
 ![alt text][pic98]
 
-11\. This will take you back to the Runtimes Dashboard where you will see your new server. It will likely be showing Pending while it is starting up the pod.
+10\. This will take you back to the Runtimes Dashboard where you will see your new server. It will likely be showing Pending while it is starting up the pod.
 
 ![alt text][pic99]
 
-12\. Note: It may take a several minutes to start up. You can refresh the page. Once it is up and running it will show the following:
+11\. Note: It may take a several minutes to start up. You can refresh the page. Once it is up and running it will show the following:
 
 ![alt text][pic100]
 
-13\.  Click on the newly created Runtime.
+12\.  Click on the newly created Runtime.
 
 ![alt text][pic101]
 
-14\. Click on the **CustomerDatabaseV1** API.
+13\. Click on the **CustomerDatabaseV1** API.
 
 ![alt text][pic102]
 
-15\. Confirm that the **Overview** tab is selected and click **Download OpenAPI Document**.
+14\. Confirm that the **Overview** tab is selected and click **Download OpenAPI Document**.
 
 ![alt text][pic103]
 

@@ -46,12 +46,12 @@ In this lab, you will explore the following key capabilities:
 A Developer Portal for the Sandbox catalog has already been configured in this environment.
 
 ## 2a. Login to the API Connect Developer Portal <a name="portal_login"></a>
-
-1\. If you are not already logged into the Platform Navigator, enter the URL for the Platform Navigator that was provided by your instructor.  To navigate to the main page of the Platform Navigator, click on **IBM Cloud Pak** in the upper left.
+If you are already logged in API Connect and continuing from the previous lab, go directly to step 4.
+1\. To access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md). 
 
 ![alt text][pic104]
 
-2\. Navigate to the API Connect instance.
+2\. Navigate to the API Connect instance, api-cluster instance (Type API Management).
 
 ![alt text][pic10a]
 
@@ -59,7 +59,7 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 ![alt text][pic11a]
 
-4\. If you are already logged in and continuing from the previous lab, click on the **Home** icon on the left navigation bar to take you to the main API Manager page.  If you just logged in, it will take you to the main API Manager page.  Click on **Manage catalogs**.  
+4\. Click on **Home** icon on the left navigation bar to take you to the main API Manager page.  If you just logged in, it will take you to the main API Manager page.  Click on **Manage catalogs**.  
 
 ![alt text][pic9]
 
@@ -67,7 +67,8 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 ![alt text][pic10]
 
-6\. Select the **Catalog settings** tab.  **Note:** Depending on how many labs you have completed, your Products list may differ then what is reflected in the screenshot.
+6\. Select the **Catalog settings** tab.  
+**Note:** Depending on how many labs you have completed, your Products list may differ then what is reflected in the screenshot.
 
 ![alt text][pic11]
 
