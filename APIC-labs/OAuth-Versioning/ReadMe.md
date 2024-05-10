@@ -72,21 +72,32 @@ In this section, you will create a new OAuth provider API, configure which grant
 In order to configure user authentication, you must first define the registry to use, which may be LDAP, local user registry, or an authentication URL. For this lab, you will implement an Authentication
 URL.
 
-1\.If you're not logged before, follow these instructions to access to the API Manager -> [Login to the API Manager](../APIC-prereq/Login-apic/index.md)
+If you are already logged in API Connect and continuing from the previous lab, go directly to step 4.
+1\. To access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md). 
 
-2\. In the left menu, click on **Resources**.  As you hover over the icon, you will see the item name.
+![alt text][pic104]
+
+2\. Navigate to the API Connect instance, api-cluster instance (Type API Management).
+
+![alt text][pic10a]
+
+3\. If this is your first time logging in, the login page is presented. Click **Cloud Pak User Registry**.
+
+![alt text][pic11a]
+
+4\. In the left menu, click on **Resources**.  As you hover over the icon, you will see the item name.
 
 ![alt text][pic9]
 
-3\. Make sure **User registries** is selected and click **Create**.
+5\. Make sure **User registries** is selected and click **Create**.
 
 ![alt text][pic10]
 
-4\. Click on **Authentication URL user registry**.
+6\. Click on **Authentication URL user registry**.
 
 ![alt text][pic11]
 
-5\. Enter **App Registry** for the **Title**,the **Url** provided by your instructor, and **App Registry** for the **Display name**.  Click **Save**.
+7\. Enter **App Registry** for the **Title**,the **Url** provided by your instructor, and **App Registry** for the **Display name**.  Click **Save**.
 
 ![alt text][pic12]
 
@@ -103,6 +114,9 @@ URL.
 [pic10]: images/10.png
 [pic11]: images/11.png
 [pic12]: images/12.png
+[pic10a]: images/10a.png
+[pic11a]: images/11a.png
+[pic104]: images/104.png
 
 # 3. Create an OAuth Service <a name="create_oauth_service"></a>
 
