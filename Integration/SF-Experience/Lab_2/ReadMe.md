@@ -36,32 +36,22 @@ IBM API connect is an integrated API management offering, where all of the steps
 # 2.1 Let's Start <a name="lets_start"></a>
 First make sure you are logged into the CP4I Platform Navigator using the account the instructor provided to you. 
 
-1\. If you are alredy logged in IBM Cloud Pak for integration Platform Navigator, go to step 4. 
-If not, in a browser, enter the URL provided by your instructor to access Red Hat OpenShift Cluster.
+1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md).
+If you are alredy logged in IBM Cloud Pak for integration Platform UI, continue to step 2.  
 
-![alt text][pic1a]
-
-2\. IBM Cloud Pak for integration (CP4I) is already install in your cluster. You can see it in the section Installed Operators. You can easily access to CP4I by clicking in the shortcut on the upper part of the browser, as shown in the picture below.
-
-![alt text][pic2a]
-
-3\. Login into CP4I Platform navigator using the credentials provided by your instructor. Logging in, you may see a Welcome page of CP4I Platform Navigator showing all the instances installed of your CP4I ready to be used.
-
-![alt text][pic3a]
-
-4\. Navigate to API Connect instance, apic for api management.
+2\. Navigate to API Connect instance, apic-cluster instance (Type api-management).
 
 ![alt text][pic4a]
 
-5\. You will now be on the APIC log in page. Select the **Cloud Pak User Registry** .
+3\. You will now be on the APIC log in page. Select the **Cloud Pak User Registry** .
 
 ![alt text][pic5a]
 
-6\. You are now on the main page.
+4\. You are now on the main page.
 
 ![alt text][pic4]
 
-7\. When logged in and connected to the APIC Home Dashboard you will see a few tiles and a tab on the left-hand side of the page.  You can use the left-hand menu or the Develop APIs and Products tile. 
+5\. When logged in and connected to the APIC Home Dashboard you will see a few tiles and a tab on the left-hand side of the page.  You can use the left-hand menu or the Develop APIs and Products tile. 
 
 ![alt text][pic5]
 

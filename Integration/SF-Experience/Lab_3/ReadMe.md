@@ -27,28 +27,29 @@ In an event-driven flow you identify an event that can occur in your source appl
 
 In this section we use App Connect Designer to create a flow that is triggered when an event occurs on Salesforce records.
 
-First make sure you are logged into the CP4I Platform Navigator using the account the instructor provided to you. 
+1\. Access Cloud Pak for Integration Platform UI as described in Access Environment section [here](access-env.md).
+If you are alredy logged in IBM Cloud Pak for integration Platform UI, continue to step 2.  
 
-1\. For this lab we will be using MQ to receive the events from App Connect so we will go and create a new Queue Manager. 
-Click in the upper part of you windows on IBM Cloud Pak for Integration, then on the **mq** instance.
+2\. For this lab we will be using MQ to receive the events from App Connect so we will go and create a new Queue Manager. 
+Navigate to MQ instance.
 
-2\. Now save the name of your QMgr (for you it will be QM01) and click on the tile to open that Qmgr dashboard.
+3\. Now save the name of your QMgr (for you it will be QM01) and click on the tile to open that Qmgr dashboard.
 
 ![alt text][pic6g]
 
-3\. Now we will create a new Queue to use in our new flow
+4\. Now we will create a new Queue to use in our new flow
 
 ![alt text][pic6h]
 
-4\. We will be creating a new Local queue.  
+5\. We will be creating a new Local queue.  
 
 ![alt text][pic6i]
 
-5\. Enter the name for the Queue, in this format "SALESFORCE.ACCOUNT.EVENT" then click Create.  
+6\. Enter the name for the Queue, in this format "SALESFORCE.ACCOUNT.EVENT" then click Create.  
 
 ![alt text][pic6j]
 
-6\. Now go back to the tab with the App Connect Designer and select the catalog on the left menu. Scroll down to IBM MQ and fill in the connection info.  
+7\. Now go back to the tab with the App Connect Designer and select the catalog on the left menu. Scroll down to IBM MQ and fill in the connection info.  
 * Enter your QMgr name (QM01)
 * For the QMgr host we will use the service name provided by your instructor.
 * Port is 1414
