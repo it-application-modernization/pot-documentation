@@ -24,7 +24,7 @@ We will cover all the various components that are part of Cloud Pak for Integrat
 - Easily portable to other clouds, since this can run on RedHat OpenShift. This allows you to install and operate the Pak identically across multiple cloud vendors.  
 
 ## Access the environment 
-Click [here] (access-env.md) for the instruction to access the environment.
+Click [here](access-env.md) for the instruction to access the environment.
 
 ## Lab section:
 To access the Openshift Cluster please follow the link shared with you by your instructor.
