@@ -36,7 +36,7 @@ Navigate into each topic to follow the labs.
 |---------------------------------------|-----------------------------------------------------------------------------|   
 | [Integration Experiences](Integration/index.md)         | This section you will explorer key capabilities using IBM App Connect Enterprise (ACE) to build integrations solutions.  When creating APIs you will also import them into IBM API Connect.
 |---------------------------------------|-----------------------------------------------------------------------------|     
-| [Event Automation Experiences](https://ibm.github.io/event-automation/tutorials/)          | This section you will explore Event Automation solution, a platform built on Apache Kafka and Flink that allows you to build event-driven applications and microservices, enabling you to ingest, process, and analyze large volumes of event data in real-time.
+| [Event Automation Experiences](eventautomation.md)          | This section you will explore Event Automation solution, a platform built on Apache Kafka and Flink that allows you to build event-driven applications and microservices, enabling you to ingest, process, and analyze large volumes of event data in real-time.
 |---------------------------------------|-----------------------------------------------------------------------------|
 
 
