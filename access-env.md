@@ -1,5 +1,7 @@
 # Welcome to IBM Application Modernization Worskhop  
 
+[Return to main lab section](index.md#lab-section)
+
 ## How to access the environment  
 
 ### Access Red Hat Openshift Cluster (RH OCP)
