@@ -92,18 +92,38 @@ Navigate to MQ instance.
 ![alt text][pic13]
 
 # 4 Testing the Event flow <a name="test_a_designer_flow"></a>
+## 4a. Create an API to test the flow
+1\. You will create a test API that if called/tested will create a new account in Salesforce.
+In App Connect Designer, click on the dashboard icon.
 
-1\. Now let's add a new account in Salesforce. 
-Click on ACE dashboard. You have been provided by an API that, if tested, create a new account in Salesforce.
-Enter the API AddSalesforceAccount
+![alt text][pic7]
 
-![alt text][pic1ale]
+2\. Select from the New drop down to create a new API selecting Flows for an API.
+Fullfill the name with "AddSalesforceAccount", enter a name for the model, then click on Create model.
 
-2\. Click on Edit Flow
+![alt text][pic5ale]
 
-![alt text][pic2ale]
+3.\ Add the property AccountID as show in the image below, then click on Operations.
 
-3\. Click on the Salesforce Connector and populate Account name, Account type, Billing street, Billing city with you preferred input, as the screen below.
+![alt text][pic6ale]
+
+4.\ From the drop down menu "Select an Operation to add" select Create account, then click on Implement flow.
+
+![alt text](pic7ale)
+
+5.\ Click on the plus icon then select Salesforce connector, then Account>Create Account to add it into the flow.
+
+![alt text](pic8ale)
+
+6.\ Click now on Response. Click on the blank space near AccountId: suggested mapping will show AccountId from Salesforce. Click on it to populate the field.
+
+![alt text](pic9ale)
+
+## 4b. Test the Event Driven flow
+
+1.\ Let's go back on Salesforce connector, clicking on it.
+You are going to test the connector that will push a new account in Salesforce.
+Populate Account name, Account type, Billing street, Billing city with you preferred input, as the screen below.
 
 ![alt text][pic3ale]
 
@@ -152,8 +172,11 @@ Enter the API AddSalesforceAccount
 [pic2ale]: images/2ale.png
 [pic3ale]: images/3ale.png
 [pic4ale]: images/4ale.png
-
-
+[pic5ale]: images/5ale.png
+[pic6ale]: images/6ale.png
+[pic7ale]: images/7ale.png
+[pic8ale]: images/8ale.png
+[pic9ale]: images/9ale.png
 
 [pic22]: images/22.png
 [pic22a]: images/22a.png
