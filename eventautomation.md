@@ -1,6 +1,6 @@
 # Event Automation Experience  
 
-[Return to main lab section](../index.md#lab-section)
+[Return to main lab section](index.md#lab-section)
 
 ## Introduction
 In this lab you will explorer key capabilities using **IBM Event Automation**, a platform built on Apache Kafka and Flink that allows you to build event-driven applications and microservices, enabling you to ingest, process, and analyze large volumes of event data in real-time.
