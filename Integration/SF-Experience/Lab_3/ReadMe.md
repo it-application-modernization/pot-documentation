@@ -109,15 +109,15 @@ Fullfill the name with "AddSalesforceAccount", enter a name for the model, then 
 
 4.\ From the drop down menu "Select an Operation to add" select Create account, then click on Implement flow.
 
-![alt text](pic7ale)
+![alt text][pic7ale]
 
 5.\ Click on the plus icon then select Salesforce connector, then Account>Create Account to add it into the flow.
 
-![alt text](pic8ale)
+![alt text][pic8ale]
 
 6.\ Click now on Response. Click on the blank space near AccountId: suggested mapping will show AccountId from Salesforce. Click on it to populate the field.
 
-![alt text](pic9ale)
+![alt text][pic9ale]
 
 ## 4b. Test the Event Driven flow
 
