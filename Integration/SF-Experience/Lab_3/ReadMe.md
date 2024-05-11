@@ -103,35 +103,35 @@ Fullfill the name with "AddSalesforceAccount", enter a name for the model, then 
 
 ![alt text][pic5ale]
 
-3.\ Add the property AccountID as show in the image below, then click on Operations.
+3\. Add the property AccountID as show in the image below, then click on Operations.
 
 ![alt text][pic6ale]
 
-4.\ From the drop down menu "Select an Operation to add" select Create account, then click on Implement flow.
+4\. From the drop down menu "Select an Operation to add" select Create account, then click on Implement flow.
 
 ![alt text][pic7ale]
 
-5.\ Click on the plus icon then select Salesforce connector, then Account>Create Account to add it into the flow.
+5\. Click on the plus icon then select Salesforce connector, then Account>Create Account to add it into the flow.
 
 ![alt text][pic8ale]
 
-6.\ Click now on Response. Click on the blank space near AccountId: suggested mapping will show AccountId from Salesforce. Click on it to populate the field.
+6\. Click now on Response. Click on the blank space near AccountId: suggested mapping will show AccountId from Salesforce. Click on it to populate the field.
 
 ![alt text][pic9ale]
 
 ## 4b. Test the Event Driven flow
 
-1.\ Let's go back on Salesforce connector, clicking on it.
+1\. Let's go back on Salesforce connector, clicking on it.
 You are going to test the connector that will push a new account in Salesforce.
 Populate Account name, Account type, Billing street, Billing city with you preferred input, as the screen below.
 
 ![alt text][pic3ale]
 
-4\. Now click on Try this action. It will test the Smart Connector creating a new account in Salesforce.
+2\. Now click on Try this action. It will test the Smart Connector creating a new account in Salesforce.
 
 ![alt text][pic4ale]
 
-5\. Now return to the tab where you have the MQ console opened. Inside your queue manager and the local queue you just create you should see messages for your new account created in Salesforce using the API AddSalesforceAccount.
+3\. Now return to the tab where you have the MQ console opened. Inside your queue manager and the local queue you just create you should see messages for your new account created in Salesforce using the API AddSalesforceAccount.
 * This is where we will check when we test this flow. 
 
 
