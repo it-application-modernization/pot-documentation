@@ -1,4 +1,7 @@
-## Multi-Style Integration with IBM App Connect Enterprise toolkit
+# Integration Experiences  
+## Toolkit Experience
+
+### Multi-Style Integration with IBM App Connect Enterprise Toolkit
 
 Get hands with toolkit and create a simple Ping flow and then test locally and deploy to the ACE runtime in CP4I.  
 Also we will show the configuration needed to distribute workloads using IBM App Connect Enterprise Callable Flows.
