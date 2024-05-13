@@ -8,7 +8,7 @@ IBM Proof of Technology sessions are complimentary classes to build
 understanding of IBM technology and software with practical
 presentations and hands-on lab exercises. 
 
-We will cover all the various components that are part of Cloud Pak for Integration. We will also discuss how these components can be used in combination.
+We will cover the various components that are part of Cloud Pak for Integration. We will also discuss how these components can be used in combination.
 
 *  **IBM App Connect Enterprise**
 *  **IBM API Connect**
