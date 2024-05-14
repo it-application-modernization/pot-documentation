@@ -78,7 +78,6 @@ Before continuing, you will want to make sure that you have completed the [API C
 ![alt text][pic12]
 
 8\. Highlight the **Portal URL** and right click to open URL in new tab or paste it in a new browser tab.  
-**Note:** If you get a warning message that your connection is not private, you can follow the instructions in the [API Connect Experience Prereq instructions](../APIC-prereq/index.md) to add an exception.
 
 ![alt text][pic13]
 
@@ -91,14 +90,14 @@ A Portal Administrator can customize the look and feel to their organizational s
 10\. Some Products are visible to all users without an account depending on the Product visibility setting. Additional options are available when you log into the Developer Portal.
 
 
-11\.<a name="step11"></a> You can log into the Developer Portal using the Admin account provided to you or the Consumer account that you created in pre-requisites. 
+11\.<a name="step11"></a> You can log into the Developer Portal using the Admin account, if provided to you, or the Consumer account that you created in [API Connect Experience - Consumer Org creation](../APIC-prereq/index.md).
 As admin account you have full right to configuration and updates on Developer Portal.
 
 Click on **Sign in** on the Dev Portal screen in the upper right corner.  
 
 ![alt text][pic19a]
 
-12\. The Sign-in screen will pop up and you will log in with Consumer username and password you created in the prerequisites. Click **Sign in**. 
+12\. The Sign-in screen will pop up and you will log in with Consumer username and password you have created. Click **Sign in**. 
 
 ![alt text][pic20a]
 
