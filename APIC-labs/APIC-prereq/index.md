@@ -2,47 +2,7 @@
 
 [Return to main APIC lab page](../ReadMe.md#lab-prereq)
 
-## 1. Add user to Common Services User Registry <a name="login"></a>
-
-1\. In a browser, enter the URL for the Platform Navigator that is provided by your instructor.
-
-**Note:** You may get a warning message that your connection is not private.  If you get this message, you can add an exception.  
-
-2\. To add an exception in the Chrome browser, click **Advanced** and then click **Proceed** to the URL.
-
-![alt text][pic1]
-
-![alt text][pic2]
-
-3\. To add an exception in the Firefox browser, click **Advanced** and then click **Accept the Risk and Continue**.
-
-![alt text][pic3]
-
-![alt text][pic4]
-
- 4\. When prompted,  fulffil with username and password provided to you for this lab. The username in the screenshots of this lab is `cody1`.
-
-//inserire pic login
-
-5\. When you log in for the first time, you may see a **Welcome** window.
-[pic0]: images/0.png
-[pic1]: images/1.png
-[pic2]: images/2.png
-[pic3]: images/3.png
-[pic4]: images/4.png
-[pic5]: images/5.png
-[pic6]: images/6.png
-[pic7]: images/7.png
-[pic8]: images/8.png
-[pic9]: images/9.png
-[pic10]: images/10.png
-[pic11]: images/11.png
-[pic12]: images/12.png
-[pic13]: images/13.png
-
----
-## 2. Create Consumer Org user <a name="login"></a>
-
+## Create Consumer Org user <a name="login"></a>
 
 1\. To navigate to the API Management home page, click on the **Home** icon in the left navigation.
 
