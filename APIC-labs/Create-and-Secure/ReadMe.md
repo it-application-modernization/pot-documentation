@@ -42,8 +42,6 @@ In this tutorial, you will explore the following key capabilities:
 
 -   Publish an API for developers
 
-Before beginning this lab, you will want to make sure that you have completed the [API Connect Experience Prereq instructions](../APIC-prereq/index.md).
-
 # 2. Deploying the REST Services <a name="deploy"></a>
 
 First, you will deploy a Customer Database REST service and then you will download the OpenAPI file for the Customer Database REST service that you deployed.

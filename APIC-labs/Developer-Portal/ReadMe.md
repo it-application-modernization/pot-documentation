@@ -52,6 +52,7 @@ If you are already logged in API Connect and continuing from the previous lab, g
 ![alt text][pic104]
 
 2\. Navigate to the API Connect instance, api-cluster instance (Type API Management).
+Before continuing, you will want to make sure that you have completed the [API Connect Experience - Consumer Org creation](../APIC-prereq/index.md).
 
 ![alt text][pic10a]
 
