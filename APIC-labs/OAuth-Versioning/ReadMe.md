@@ -98,7 +98,7 @@ If you are already logged in API Connect and continuing from the previous lab, g
 ![alt text][pic11]
 
 7\. Enter **App Registry** for the **Title**.  
-Build the **Url** as follow: "https://httpbin-app-httpbin.*your cluster url*/basic-auth/studentx/password" where your cluster url is the part of Red Hat url from ".app.*cluster id*.cloud.techzone.ibm.com". For example if your Red Hat url is "https://console-openshift-console.apps.66418360858a4d001e34fc72.cloud.techzone.ibm.com", the url will be "http://httpbin-app-httpbin.apps.66418360858a4d001e34fc72.cloud.techzone.ibm.com/basic-auth/studenx/password".  
+Build the **Url** as follow: "https://httpbin-app-httpbin.<*your cluster url*>/basic-auth/studentx/password" where your cluster url is the part of Red Hat url from ".app.<*cluster id*>.cloud.techzone.ibm.com". For example if your Red Hat url is "https://console-openshift-console.apps.66418360858a4d001e34fc72.cloud.techzone.ibm.com", the url will be "http://httpbin-app-httpbin.apps.66418360858a4d001e34fc72.cloud.techzone.ibm.com/basic-auth/studenx/password".  
 **App Registry** for the **Display name**.  Click **Save**.
 
 ![alt text][pic12]
