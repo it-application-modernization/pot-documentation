@@ -286,6 +286,19 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 
 ![alt text][pic70]
 
+10\. Click on Preferences as shown in the picture below
+
+![alt text][pic7ale]
+
+11\. You will see a window opens. Switch the toggle to enable API Auto-Publish
+
+![alt text][pic8ale]
+
+An indicator window appear that shows that **Your API has been updated**.  Click on **Save Preferences**  and on the **X** to close the window. Your API is now Online.
+
+![alt text][pic9ale]
+
+
 [pic32]: images/32.png
 [pic33]: images/33.png
 [pic34]: images/34.png
@@ -301,6 +314,9 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 [pic70]: images/70.png
 [pic90]: images/90.png
 [pic91]: images/91.png
+[pic7ale]: images/7ale.png
+[pic8ale]: images/8ale.png
+[pic9ale]: images/9ale.png
 
 # 6. Create a New Product <a name="create_product"></a>
 
