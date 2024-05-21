@@ -71,7 +71,11 @@ Use this info to fill in the following fields for the Smart connector.
 
 ![alt text][pic8]
 
-9\. First thing we will do is create the model for this.  We will call the model **SalesforceRetrieve**, then click on **Create Model**
+9\. Let's give to the API a meaningful name.  This will automatically be saved.
+
+![alt text][pic21ale]
+
+We now create the model for this.  We will call the model **SalesforceRetrieve**, then click on **Create Model**
 
 ![alt text][pic9]
 
@@ -144,9 +148,7 @@ Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** 
 
 ![alt text][pic20]
 
-23\. We are now ready to start and Test the API but first need to give it a meaningful name.  This will automatically be saved.  Click the Done button to close the flow
-
-![alt text][pic21]
+23\. We are now ready to start and Test the API.
 
 
 [pic0]: images/0.png
@@ -172,6 +174,7 @@ Click on **Account ID** under the **Salesforce / Retrieve accounts / Accounts** 
 [pic19]: images/19.png
 [pic20]: images/20.png
 [pic21]: images/21.png
+[pic21ale]: images/21ale.png
 [pic1a]: images/1a.png
 [pic2a]: images/2a.png
 [pic3a]: images/3a.png
